@@ -8,6 +8,19 @@ A beautifully designed administration tool for your organization projects, with 
 
 Contributions are **welcome** and will be fully **credited**. We accept contributions via Pull Requests on [GitHub](https://github.com/RentadroneCL/droneraising).
 
+## Contribution guidelines
+
+**If you want to contribute to Rentadrone.cl, be sure to review the
+[contribution guidelines](CONTRIBUTING.md). This project adheres to Contributor Covenant's
+[code of conduct](CODE_OF_CONDUCT.md). By participating, you are expected to
+uphold this code.**
+
+**We use [GitHub issues](https://github.com/RentadroneCL/ui/issues) for
+tracking requests and bugs, please see
+
+for general questions and discussion, and please direct specific questions to the team of
+[Rentadrone.cl](mailto:contacto@rentadrone.cl).**
+
 ## Pull Requests
 
 - **[PSR-12 Coding Standard.](https://www.php-fig.org/psr/psr-12)** The easiest way to apply the conventions is to install [PHP CS Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer).
