@@ -31,8 +31,6 @@ export default {
         'X-CSRF-TOKEN': this.csrf
       }
     });
-
-    this.images
   }
 }
 </script>
