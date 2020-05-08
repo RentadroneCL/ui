@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::resource('/project', 'ProjectController');
+
+Route::get('/', 'ProjectController@index');
+
+Route::post('/project/{project}/media/upload', 'UploadMedia')->name('media.upload');
