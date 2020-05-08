@@ -1,8 +1,9 @@
+[![Build Status](https://api.travis-ci.org/RentadroneCL/ui.svg)](https://travis-ci.org/github/RentadroneCL/ui)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
 # About UI
 
-A beautifully designed administration tool for your organization projects, with an intuitive control panel, team accounts, and more. Carefully crafted by the team of [Rentadrone.cl](https://rentadrone.cl).
+A beautifully designed administration tool for your organization projects, with an intuitive control panel, and more. Carefully crafted by the team of [Rentadrone.cl](https://rentadrone.cl).
 
 # Contributing
 
