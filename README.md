@@ -43,4 +43,4 @@ The droneraising code of conduct is derived from the [Contributor Covenant](http
 
 ## License
 
-droneraising software is licensed under the [MIT license.](LICENSE.md)
+open-sourced software licensed under the [MIT license.](LICENSE)
