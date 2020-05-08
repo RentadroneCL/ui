@@ -37,7 +37,15 @@ class UploadMedia extends Controller
 
         return response()->json([
             'status' => 'success',
-            'model' => $media,
+            'media' => [
+                'id' => $media->id,
+                'name' => $media->name,
+                'mime_type' => $media->mime_type,
+                'public_url' => $media->getUrl(),
+                'created_at' => $media->created_at->diffForHumans(),
+                'data' => $media->getCustomProperty('data'),
+                'raw_data' => $media->getCustomProperty('raw_data'),
+            ],
         ]);
     }
 }
