@@ -12,7 +12,7 @@ class ProjectController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return View
      */
     public function index(): View
     {
@@ -27,7 +27,7 @@ class ProjectController extends Controller
     /**
      * Show the form for creating a new resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return View
      */
     public function create(): View
     {
@@ -37,8 +37,8 @@ class ProjectController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
+     * @param  Request  $request
+     * @return RedirectResponse
      */
     public function store(Request $request): RedirectResponse
     {
@@ -57,8 +57,9 @@ class ProjectController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @param int $id
+     *
+     * @return View
      */
     public function show(int $id = null): View
     {
@@ -66,14 +67,28 @@ class ProjectController extends Controller
                     ->with('media')
                     ->findOrFail($id);
 
-        return view('project.show', compact('project'));
+        $media = $project->getMedia('images')->map(function ($item) {
+            return [
+                'id' => $item->id,
+                'name' => $item->file_name,
+                'mime_type' => $item->mime_type,
+                'size' => $item->size,
+                'public_url' => $item->getUrl(),
+                'data' => $item->getCustomProperty('data'),
+                'raw_data' => $item->getCustomProperty('raw_data'),
+                'created_at' => $item->created_at->diffForHumans(),
+            ];
+        });
+
+        return view('project.show', compact('project', 'media'));
     }
 
     /**
      * Show the form for editing the specified resource.
      *
      * @param  int  $id
-     * @return \Illuminate\Http\Response
+     *
+     * @return View
      */
     public function edit(int $id = null): View
     {
@@ -85,9 +100,10 @@ class ProjectController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param  Request  $request
      * @param  int  $id
-     * @return \Illuminate\Http\Response
+     *
+     * @return RedirectResponse
      */
     public function update(Request $request, int $id = null): RedirectResponse
     {
@@ -108,8 +124,9 @@ class ProjectController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @param Project $project
+     *
+     * @return JsonResponse
      */
     public function destroy(Project $project): JsonResponse
     {
