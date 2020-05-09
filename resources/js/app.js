@@ -11,8 +11,10 @@ import Vue from 'vue';
 window.Vue = Vue;
 
 import UploadComponent from './components/UploadComponent';
+import MediaComponent from './components/MediaComponent';
 
 Vue.component('upload-component', UploadComponent);
+Vue.component('media-component', MediaComponent);
 
 import { Application } from 'stimulus';
 import { definitionsFromContext } from 'stimulus/webpack-helpers';
