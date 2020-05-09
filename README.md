@@ -37,11 +37,11 @@ for general questions and discussion, and please direct specific questions to th
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within droneraising, please send an e-mail to droneraising team via [contacto@rentadrone.cl](mailto:contacto@rentadrone.cl). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within, please send an e-mail via [contacto@rentadrone.cl](mailto:contacto@rentadrone.cl). All security vulnerabilities will be promptly addressed.
 
 ## [Code of Conduct](https://github.com/RentadroneCL/droneraising/blob/master/CODE_OF_CONDUCT.md)
 
-The droneraising code of conduct is derived from the [Contributor Covenant](https://www.contributor-covenant.org). Any violations of the code of conduct may be reported to [Rentadrone.cl](mailto:contacto@rentadrone.cl)
+The code of conduct is derived from the [Contributor Covenant](https://www.contributor-covenant.org). Any violations of the code of conduct may be reported to [Rentadrone.cl](mailto:contacto@rentadrone.cl)
 
 ## License
 
