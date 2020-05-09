@@ -31,6 +31,7 @@
         "@uppy/core": "^1.10.4",
         "@uppy/dashboard": "^1.8.5",
         "@uppy/xhr-upload": "^1.5.10",
+        "highlight.js": "^10.0.2",
         "leaflet": "^1.6.0",
         "leaflet.markercluster": "^1.4.1",
         "stimulus": "^1.1.1",
