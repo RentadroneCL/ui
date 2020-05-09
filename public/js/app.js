@@ -13167,6 +13167,62 @@ module.exports = {
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/MediaComponent.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/MediaComponent.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var highlight_js_lib_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! highlight.js/lib/core */ "./node_modules/highlight.js/lib/core.js");
+/* harmony import */ var highlight_js_lib_core__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(highlight_js_lib_core__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var highlight_js_lib_languages_javascript__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! highlight.js/lib/languages/javascript */ "./node_modules/highlight.js/lib/languages/javascript.js");
+/* harmony import */ var highlight_js_lib_languages_javascript__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(highlight_js_lib_languages_javascript__WEBPACK_IMPORTED_MODULE_1__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  mounted: function mounted() {
+    highlight_js_lib_core__WEBPACK_IMPORTED_MODULE_0___default.a.registerLanguage('javascript', highlight_js_lib_languages_javascript__WEBPACK_IMPORTED_MODULE_1___default.a);
+    highlight_js_lib_core__WEBPACK_IMPORTED_MODULE_0___default.a.initHighlightingOnLoad();
+  },
+  props: ['data'],
+  data: function data() {
+    return {
+      item: JSON.parse(this.data)
+    };
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/UploadComponent.vue?vue&type=script&lang=js&":
 /*!**************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/UploadComponent.vue?vue&type=script&lang=js& ***!
@@ -13211,7 +13267,6 @@ __webpack_require__.r(__webpack_exports__);
         'X-CSRF-TOKEN': this.csrf
       }
     });
-    this.images;
   }
 });
 
@@ -19814,6 +19869,44 @@ exports.push([module.i, ".uppy-Informer {\n  position: absolute;\n  bottom: 60px
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/highlight.js/styles/darcula.css":
+/*!***************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/highlight.js/styles/darcula.css ***!
+  \***************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "/*\n\nDarcula color scheme from the JetBrains family of IDEs\n\n*/\n.hljs {\n  display: block;\n  overflow-x: auto;\n  padding: 0.5em;\n  background: #2b2b2b;\n  color: #bababa;\n}\n.hljs-strong,\n.hljs-emphasis {\n  color: #a8a8a2;\n}\n.hljs-bullet,\n.hljs-quote,\n.hljs-link,\n.hljs-number,\n.hljs-regexp,\n.hljs-literal {\n  color: #6896ba;\n}\n.hljs-code,\n.hljs-selector-class {\n  color: #a6e22e;\n}\n.hljs-emphasis {\n  font-style: italic;\n}\n.hljs-keyword,\n.hljs-selector-tag,\n.hljs-section,\n.hljs-attribute,\n.hljs-name,\n.hljs-variable {\n  color: #cb7832;\n}\n.hljs-params {\n  color: #b9b9b9;\n}\n.hljs-string {\n  color: #6a8759;\n}\n.hljs-subst,\n.hljs-type,\n.hljs-built_in,\n.hljs-builtin-name,\n.hljs-symbol,\n.hljs-selector-id,\n.hljs-selector-attr,\n.hljs-selector-pseudo,\n.hljs-template-tag,\n.hljs-template-variable,\n.hljs-addition {\n  color: #e0c46c;\n}\n.hljs-comment,\n.hljs-deletion,\n.hljs-meta {\n  color: #7f7f7f;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/MediaComponent.vue?vue&type=style&index=0&id=63cb17b8&scoped=true&lang=css&":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/MediaComponent.vue?vue&type=style&index=0&id=63cb17b8&scoped=true&lang=css& ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+exports.i(__webpack_require__(/*! -!../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!highlight.js/styles/darcula.css */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/highlight.js/styles/darcula.css"), "");
+
+// module
+exports.push([module.i, "\n", ""]);
+
+// exports
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/UploadComponent.vue?vue&type=style&index=0&id=602a0e61&scoped=true&lang=css&":
 /*!*********************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/UploadComponent.vue?vue&type=style&index=0&id=602a0e61&scoped=true&lang=css& ***!
@@ -20093,6 +20186,1884 @@ module.exports = function pad (num, size) {
 /* WEBPACK VAR INJECTION */(function(global, process, Buffer) {!function(e,t){ true?t(exports):undefined}(this,(function(e){"use strict";function t(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}function n(e,t){for(var n=0;n<t.length;n++){var r=t[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(e,r.key,r)}}function r(e,t,r){return t&&n(e.prototype,t),r&&n(e,r),e}function i(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function s(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function");e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,writable:!0,configurable:!0}});var n=["prototype","__proto__","caller","arguments","length","name"];Object.getOwnPropertyNames(t).forEach((function(r){-1===n.indexOf(r)&&e[r]!==t[r]&&(e[r]=t[r])})),t&&u(e,t)}function a(e){return(a=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)})(e)}function u(e,t){return(u=Object.setPrototypeOf||function(e,t){return e.__proto__=t,e})(e,t)}function o(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Date.prototype.toString.call(Reflect.construct(Date,[],(function(){}))),!0}catch(e){return!1}}function f(e,t,n){return(f=o()?Reflect.construct:function(e,t,n){var r=[null];r.push.apply(r,t);var i=new(Function.bind.apply(e,r));return n&&u(i,n.prototype),i}).apply(null,arguments)}function h(e){var t="function"==typeof Map?new Map:void 0;return(h=function(e){if(null===e||(n=e,-1===Function.toString.call(n).indexOf("[native code]")))return e;var n;if("function"!=typeof e)throw new TypeError("Super expression must either be null or a function");if(void 0!==t){if(t.has(e))return t.get(e);t.set(e,r)}function r(){return f(e,arguments,a(this).constructor)}return r.prototype=Object.create(e.prototype,{constructor:{value:r,enumerable:!1,writable:!0,configurable:!0}}),u(r,e)})(e)}function c(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}function l(e,t){return!t||"object"!=typeof t&&"function"!=typeof t?c(e):t}function d(e,t,n){return(d="undefined"!=typeof Reflect&&Reflect.get?Reflect.get:function(e,t,n){var r=function(e,t){for(;!Object.prototype.hasOwnProperty.call(e,t)&&null!==(e=a(e)););return e}(e,t);if(r){var i=Object.getOwnPropertyDescriptor(r,t);return i.get?i.get.call(n):i.value}})(e,t,n||e)}var p=Object.values||function(e){var t=[];for(var n in e)t.push(e[n]);return t},v=Object.entries||function(e){var t=[];for(var n in e)t.push([n,e[n]]);return t},y=Object.assign||function(e){for(var t=arguments.length,n=new Array(t>1?t-1:0),r=1;r<t;r++)n[r-1]=arguments[r];return n.forEach((function(t){for(var n in t)e[n]=t[n]})),e},g=Object.fromEntries||function(e){var t={};return k(e).forEach((function(e){var n=e[0],r=e[1];t[n]=r})),t},k=Array.from||function(e){if(e instanceof S){var t=[];return e.forEach((function(e,n){return t.push([n,e])})),t}return Array.prototype.slice.call(e)};function m(e){return-1!==this.indexOf(e)}Array.prototype.includes||(Array.prototype.includes=m),String.prototype.includes||(String.prototype.includes=m),String.prototype.startsWith||(String.prototype.startsWith=function(e){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:0;return this.substring(t,t+e.length)===e}),String.prototype.endsWith||(String.prototype.endsWith=function(e){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:this.length;return this.substring(t-e.length,t)===e});var b="undefined"!=typeof self?self:global,w=b.fetch||function(e){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{};return new Promise((function(n,r){var i=new XMLHttpRequest;if(i.open("get",e,!0),i.responseType="arraybuffer",i.onerror=r,t.headers)for(var s in t.headers)i.setRequestHeader(s,t.headers[s]);i.onload=function(){n({ok:i.status>=200&&i.status<300,status:i.status,arrayBuffer:function(){return Promise.resolve(i.response)}})},i.send(null)}))},A=function(e){var t=[];if(Object.defineProperties(t,{size:{get:function(){return this.length}},has:{value:function(e){return-1!==this.indexOf(e)}},add:{value:function(e){this.has(e)||this.push(e)}},delete:{value:function(e){if(this.has(e)){var t=this.indexOf(e);this.splice(t,1)}}}}),Array.isArray(e))for(var n=0;n<e.length;n++)t.add(e[n]);return t},O=function(e){return new S(e)},S=void 0!==b.Map&&void 0!==b.Map.prototype.keys?b.Map:function(){function e(n){if(t(this,e),this.clear(),n)for(var r=0;r<n.length;r++)this.set(n[r][0],n[r][1])}return r(e,[{key:"clear",value:function(){this._map={},this._keys=[]}},{key:"get",value:function(e){return this._map["map_"+e]}},{key:"set",value:function(e,t){return this._map["map_"+e]=t,this._keys.indexOf(e)<0&&this._keys.push(e),this}},{key:"has",value:function(e){return this._keys.indexOf(e)>=0}},{key:"delete",value:function(e){var t=this._keys.indexOf(e);return!(t<0)&&(delete this._map["map_"+e],this._keys.splice(t,1),!0)}},{key:"keys",value:function(){return this._keys.slice(0)}},{key:"values",value:function(){var e=this;return this._keys.map((function(t){return e.get(t)}))}},{key:"entries",value:function(){var e=this;return this._keys.map((function(t){return[t,e.get(t)]}))}},{key:"forEach",value:function(e,t){for(var n=0;n<this._keys.length;n++)e.call(t,this._map["map_"+this._keys[n]],this._keys[n],this)}},{key:"size",get:function(){return this._keys.length}}]),e}(),P="undefined"!=typeof self?self:global,U="undefined"!=typeof navigator,x=U&&"undefined"==typeof HTMLImageElement,C=!("undefined"==typeof global||"undefined"==typeof process||!process.versions||!process.versions.node),B=P.Buffer,j=P.BigInt,_=!!B;var I=function(e){return void 0!==e};function V(e){return void 0===e||(e instanceof S?0===e.size:0===p(e).filter(I).length)}function T(e){var t=new Error(e);return delete t.stack,t}function L(e){var t=function(e){var t=0;return e.ifd0.enabled&&(t+=1024),e.exif.enabled&&(t+=2048),e.makerNote&&(t+=2048),e.userComment&&(t+=1024),e.gps.enabled&&(t+=512),e.interop.enabled&&(t+=100),e.ifd1.enabled&&(t+=1024),t+2048}(e);return e.jfif.enabled&&(t+=50),e.xmp.enabled&&(t+=2e4),e.iptc.enabled&&(t+=14e3),e.icc.enabled&&(t+=6e3),t}var z="undefined"!=typeof TextDecoder?new TextDecoder("utf-8"):void 0;function F(e){return z?z.decode(e):_?Buffer.from(e).toString("utf8"):decodeURIComponent(escape(String.fromCharCode.apply(null,e)))}var E=function(){function e(n){var r=arguments.length>1&&void 0!==arguments[1]?arguments[1]:0,i=arguments.length>2?arguments[2]:void 0,s=arguments.length>3?arguments[3]:void 0;if(t(this,e),"boolean"==typeof s&&(this.le=s),Array.isArray(n)&&(n=new Uint8Array(n)),0===n)this.byteOffset=0,this.byteLength=0;else if(n instanceof ArrayBuffer){void 0===i&&(i=n.byteLength-r);var a=new DataView(n,r,i);this._swapDataView(a)}else if(n instanceof Uint8Array||n instanceof DataView||n instanceof e){if(void 0===i&&(i=n.byteLength-r),(r+=n.byteOffset)+i>n.byteOffset+n.byteLength)throw T("Creating view outside of available memory in ArrayBuffer");var u=new DataView(n.buffer,r,i);this._swapDataView(u)}else{if("number"!=typeof n)throw T("Invalid input argument for BufferView: "+n);var o=new DataView(new ArrayBuffer(n));this._swapDataView(o)}}return r(e,null,[{key:"from",value:function(t,n){return t instanceof this&&t.le===n?t:new e(t,void 0,void 0,n)}}]),r(e,[{key:"_swapArrayBuffer",value:function(e){this._swapDataView(new DataView(e))}},{key:"_swapBuffer",value:function(e){this._swapDataView(new DataView(e.buffer,e.byteOffset,e.byteLength))}},{key:"_swapDataView",value:function(e){this.dataView=e,this.buffer=e.buffer,this.byteOffset=e.byteOffset,this.byteLength=e.byteLength}},{key:"_lengthToEnd",value:function(e){return this.byteLength-e}},{key:"set",value:function(t,n){var r=arguments.length>2&&void 0!==arguments[2]?arguments[2]:e;if(t instanceof DataView||t instanceof e?t=new Uint8Array(t.buffer,t.byteOffset,t.byteLength):t instanceof ArrayBuffer&&(t=new Uint8Array(t)),!(t instanceof Uint8Array))throw T("BufferView.set(): Invalid data argument.");var i=this.toUint8();return i.set(t,n),new r(this,n,t.byteLength)}},{key:"subarray",value:function(t,n){return new e(this,t,n=n||this._lengthToEnd(t))}},{key:"toUint8",value:function(){return new Uint8Array(this.buffer,this.byteOffset,this.byteLength)}},{key:"getUint8Array",value:function(e,t){return new Uint8Array(this.buffer,this.byteOffset+e,t)}},{key:"getString",value:function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:0,t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:this.byteLength,n=this.getUint8Array(e,t);return F(n)}},{key:"getUnicodeString",value:function(){for(var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:0,t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:this.byteLength,n=[],r=0;r<t&&e+r<this.byteLength;r+=2)n.push(this.getUint16(e+r));return n.map((function(e){return String.fromCharCode(e)})).join("")}},{key:"getInt8",value:function(e){return this.dataView.getInt8(e)}},{key:"getUint8",value:function(e){return this.dataView.getUint8(e)}},{key:"getInt16",value:function(e){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:this.le;return this.dataView.getInt16(e,t)}},{key:"getInt32",value:function(e){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:this.le;return this.dataView.getInt32(e,t)}},{key:"getUint16",value:function(e){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:this.le;return this.dataView.getUint16(e,t)}},{key:"getUint32",value:function(e){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:this.le;return this.dataView.getUint32(e,t)}},{key:"getFloat32",value:function(e){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:this.le;return this.dataView.getFloat32(e,t)}},{key:"getFloat64",value:function(e){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:this.le;return this.dataView.getFloat64(e,t)}},{key:"getFloat",value:function(e){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:this.le;return this.dataView.getFloat32(e,t)}},{key:"getDouble",value:function(e){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:this.le;return this.dataView.getFloat64(e,t)}},{key:"getUint64",value:function(e){var t=this.getUint32(e),n=this.getUint32(e+4);if(t<1048575)return t<<32|n;if(void 0!==typeof j)return console.warn("Using BigInt because of type 64uint but JS can only handle 53b numbers."),j(t)<<j(32)|j(n);throw T("Trying to read 64b value but JS can only handle 53b numbers.")}},{key:"getUintBytes",value:function(e,t,n){switch(t){case 1:return this.getUint8(e,n);case 2:return this.getUint16(e,n);case 4:return this.getUint32(e,n);case 8:return this.getUint64(e,n)}}},{key:"getUint",value:function(e,t,n){switch(t){case 8:return this.getUint8(e,n);case 16:return this.getUint16(e,n);case 32:return this.getUint32(e,n);case 64:return this.getUint64(e,n)}}},{key:"toString",value:function(e){return this.dataView.toString(e,this.constructor.name)}},{key:"ensureChunk",value:function(){}}]),e}();function D(e,t){throw T("".concat(e," '").concat(t,"' was not loaded, try using full build of exifr."))}var M=function(e){function n(e){var r;return t(this,n),(r=l(this,a(n).call(this))).kind=e,r}return s(n,e),r(n,[{key:"get",value:function(e,t){return this.has(e)||D(this.kind,e),t&&(e in t||function(e,t){throw T("Unknown ".concat(e," '").concat(t,"'."))}(this.kind,e),t[e].enabled||D(this.kind,e)),d(a(n.prototype),"get",this).call(this,e)}},{key:"keyList",value:function(){return k(this.keys())}}]),n}(h(S)),N=new M("file parser"),R=new M("segment parser"),W=new M("file reader");function K(e){return function(){for(var t=[],n=0;n<arguments.length;n++)t[n]=arguments[n];try{return Promise.resolve(e.apply(this,t))}catch(e){return Promise.reject(e)}}}function X(e,t,n){return n?t?t(e):e:(e&&e.then||(e=Promise.resolve(e)),t?e.then(t):e)}var H=K((function(e){return new Promise((function(t,n){var r=new FileReader;r.onloadend=function(){return t(r.result||new ArrayBuffer)},r.onerror=n,r.readAsArrayBuffer(e)}))})),Y=K((function(e){return w(e).then((function(e){return e.arrayBuffer()}))})),G=K((function(e,t){return X(t(e),(function(e){return new E(e)}))})),J=K((function(e,t,n){var r=new(W.get(n))(e,t);return X(r.read(),(function(){return r}))})),q=K((function(e,t,n,r){if(W.has(n))return J(e,t,n);if(r)return G(e,r);throw T("Parser ".concat(n," is not loaded"))}));function Q(e,t){if((n=e).startsWith("data:")||n.length>1e4)return J(e,t,"base64");if(U)return q(e,t,"url",Y);if(C)return J(e,t,"fs");throw T("Invalid input argument");var n}var Z=function(e){function n(){return t(this,n),l(this,a(n).apply(this,arguments))}return s(n,e),r(n,[{key:"tagKeys",get:function(){return this.allKeys||(this.allKeys=k(this.keys())),this.allKeys}},{key:"tagValues",get:function(){return this.allValues||(this.allValues=k(this.values())),this.allValues}}]),n}(h(S));function $(e,t,n){var r=new Z,i=n;Array.isArray(i)||("function"==typeof i.entries&&(i=i.entries()),i=k(i));for(var s=0;s<i.length;s++){var a=i[s],u=a[0],o=a[1];r.set(u,o)}if(Array.isArray(t)){var f=t;Array.isArray(f)||("function"==typeof f.entries&&(f=f.entries()),f=k(f));for(var h=0;h<f.length;h++){var c=f[h];e.set(c,r)}}else e.set(t,r);return r}function ee(e,t,n){var r,i=e.get(t),s=n;Array.isArray(s)||("function"==typeof s.entries&&(s=s.entries()),s=k(s));for(var a=0;a<s.length;a++)r=s[a],i.set(r[0],r[1])}var te=O(),ne=O(),re=O(),ie=["chunked","firstChunkSize","firstChunkSizeNode","firstChunkSizeBrowser","chunkSize","chunkLimit"],se=["jfif","xmp","icc","iptc"],ae=["tiff"].concat(se),ue=["ifd0","ifd1","exif","gps","interop"],oe=[].concat(ae,ue),fe=["makerNote","userComment"],he=["translateKeys","translateValues","reviveValues","multiSegment"],ce=[].concat(he,["sanitize","mergeOutput"]),le=function(){function e(){t(this,e)}return r(e,[{key:"translate",get:function(){return this.translateKeys||this.translateValues||this.reviveValues}}]),e}(),de=function(e){function n(e,r,s,u){var o;if(t(this,n),i(c(o=l(this,a(n).call(this))),"enabled",!1),i(c(o),"skip",A()),i(c(o),"pick",A()),i(c(o),"deps",A()),i(c(o),"translateKeys",!1),i(c(o),"translateValues",!1),i(c(o),"reviveValues",!1),o.key=e,o.enabled=r,o.parse=o.enabled,o.applyInheritables(u),o.canBeFiltered=ue.includes(e),o.canBeFiltered&&(o.dict=te.get(e)),void 0!==s)if(Array.isArray(s))o.parse=o.enabled=!0,o.canBeFiltered&&s.length>0&&o.translateTagSet(s,o.pick);else if("object"==typeof s){if(o.enabled=!0,o.parse=!1!==s.parse,o.canBeFiltered){var f=s.pick,h=s.skip;f&&f.length>0&&o.translateTagSet(f,o.pick),h&&h.length>0&&o.translateTagSet(h,o.skip)}o.applyInheritables(s)}else{if(!0!==s&&!1!==s)throw T("Invalid options argument: ".concat(s));o.parse=o.enabled=s}return o}return s(n,e),r(n,[{key:"needed",get:function(){return this.enabled||this.deps.size>0}}]),r(n,[{key:"applyInheritables",value:function(e){var t,n,r=he;Array.isArray(r)||("function"==typeof r.entries&&(r=r.entries()),r=k(r));for(var i=0;i<r.length;i++)void 0!==(n=e[t=r[i]])&&(this[t]=n)}},{key:"translateTagSet",value:function(e,t){if(this.dict){var n,r,i=this.dict,s=i.tagKeys,a=i.tagValues,u=e;Array.isArray(u)||("function"==typeof u.entries&&(u=u.entries()),u=k(u));for(var o=0;o<u.length;o++)"string"==typeof(n=u[o])?(-1===(r=a.indexOf(n))&&(r=s.indexOf(Number(n))),-1!==r&&t.add(Number(s[r]))):t.add(n)}else{var f=e;Array.isArray(f)||("function"==typeof f.entries&&(f=f.entries()),f=k(f));for(var h=0;h<f.length;h++){var c=f[h];t.add(c)}}}},{key:"finalizeFilters",value:function(){!this.enabled&&this.deps.size>0?(this.enabled=!0,me(this.pick,this.deps)):this.enabled&&this.pick.size>0&&me(this.pick,this.deps)}}]),n}(le),pe={jfif:!1,tiff:!0,xmp:!1,icc:!1,iptc:!1,ifd0:!0,ifd1:!1,exif:!0,gps:!0,interop:!1,makerNote:!1,userComment:!1,multiSegment:!1,skip:[],pick:[],translateKeys:!0,translateValues:!0,reviveValues:!0,sanitize:!0,mergeOutput:!0,silentErrors:!0,chunked:!0,firstChunkSize:void 0,firstChunkSizeNode:512,firstChunkSizeBrowser:65536,chunkSize:65536,chunkLimit:5},ve=O(),ye=function(e){function n(e){var r;if(t(this,n),r=l(this,a(n).call(this)),!0===e)r.setupFromTrue();else if(void 0===e)r.setupFromUndefined();else if(Array.isArray(e))r.setupFromArray(e);else{if("object"!=typeof e)throw T("Invalid options argument ".concat(e));r.setupFromObject(e)}return void 0===r.firstChunkSize&&(r.firstChunkSize=U?r.firstChunkSizeBrowser:r.firstChunkSizeNode),r.mergeOutput&&(r.ifd1.enabled=!1),r.filterNestedSegmentTags(),r.traverseTiffDependencyTree(),r.checkLoadedPlugins(),r}return s(n,e),r(n,null,[{key:"useCached",value:function(e){var t=ve.get(e);return void 0!==t?t:(t=new this(e),ve.set(e,t),t)}}]),r(n,[{key:"setupFromUndefined",value:function(){var e,t=ie;Array.isArray(t)||("function"==typeof t.entries&&(t=t.entries()),t=k(t));for(var n=0;n<t.length;n++)this[e=t[n]]=pe[e];var r=ce;Array.isArray(r)||("function"==typeof r.entries&&(r=r.entries()),r=k(r));for(var i=0;i<r.length;i++)this[e=r[i]]=pe[e];var s=fe;Array.isArray(s)||("function"==typeof s.entries&&(s=s.entries()),s=k(s));for(var a=0;a<s.length;a++)this[e=s[a]]=pe[e];var u=oe;Array.isArray(u)||("function"==typeof u.entries&&(u=u.entries()),u=k(u));for(var o=0;o<u.length;o++)this[e=u[o]]=new de(e,pe[e],void 0,this)}},{key:"setupFromTrue",value:function(){var e,t=ie;Array.isArray(t)||("function"==typeof t.entries&&(t=t.entries()),t=k(t));for(var n=0;n<t.length;n++)this[e=t[n]]=pe[e];var r=ce;Array.isArray(r)||("function"==typeof r.entries&&(r=r.entries()),r=k(r));for(var i=0;i<r.length;i++)this[e=r[i]]=pe[e];var s=fe;Array.isArray(s)||("function"==typeof s.entries&&(s=s.entries()),s=k(s));for(var a=0;a<s.length;a++)this[e=s[a]]=!0;var u=oe;Array.isArray(u)||("function"==typeof u.entries&&(u=u.entries()),u=k(u));for(var o=0;o<u.length;o++)this[e=u[o]]=new de(e,!0,void 0,this)}},{key:"setupFromArray",value:function(e){var t,n=ie;Array.isArray(n)||("function"==typeof n.entries&&(n=n.entries()),n=k(n));for(var r=0;r<n.length;r++)this[t=n[r]]=pe[t];var i=ce;Array.isArray(i)||("function"==typeof i.entries&&(i=i.entries()),i=k(i));for(var s=0;s<i.length;s++)this[t=i[s]]=pe[t];var a=fe;Array.isArray(a)||("function"==typeof a.entries&&(a=a.entries()),a=k(a));for(var u=0;u<a.length;u++)this[t=a[u]]=pe[t];var o=oe;Array.isArray(o)||("function"==typeof o.entries&&(o=o.entries()),o=k(o));for(var f=0;f<o.length;f++)this[t=o[f]]=new de(t,!1,void 0,this);this.setupGlobalFilters(e,void 0,ue)}},{key:"setupFromObject",value:function(e){var t;ue.ifd0=ue.ifd0||ue.image,ue.ifd1=ue.ifd1||ue.thumbnail,y(this,e);var n=ie;Array.isArray(n)||("function"==typeof n.entries&&(n=n.entries()),n=k(n));for(var r=0;r<n.length;r++)this[t=n[r]]=ke(e[t],pe[t]);var i=ce;Array.isArray(i)||("function"==typeof i.entries&&(i=i.entries()),i=k(i));for(var s=0;s<i.length;s++)this[t=i[s]]=ke(e[t],pe[t]);var a=fe;Array.isArray(a)||("function"==typeof a.entries&&(a=a.entries()),a=k(a));for(var u=0;u<a.length;u++)this[t=a[u]]=ke(e[t],pe[t]);var o=ae;Array.isArray(o)||("function"==typeof o.entries&&(o=o.entries()),o=k(o));for(var f=0;f<o.length;f++)this[t=o[f]]=new de(t,pe[t],e[t],this);var h=ue;Array.isArray(h)||("function"==typeof h.entries&&(h=h.entries()),h=k(h));for(var c=0;c<h.length;c++)this[t=h[c]]=new de(t,pe[t],e[t],this.tiff);this.setupGlobalFilters(e.pick,e.skip,ue,oe),!0===e.tiff?this.batchEnableWithBool(ue,!0):!1===e.tiff?this.batchEnableWithUserValue(ue,e):Array.isArray(e.tiff)?this.setupGlobalFilters(e.tiff,void 0,ue):"object"==typeof e.tiff&&this.setupGlobalFilters(e.tiff.pick,e.tiff.skip,ue)}},{key:"batchEnableWithBool",value:function(e,t){var n=e;Array.isArray(n)||("function"==typeof n.entries&&(n=n.entries()),n=k(n));for(var r=0;r<n.length;r++){this[n[r]].enabled=t}}},{key:"batchEnableWithUserValue",value:function(e,t){var n=e;Array.isArray(n)||("function"==typeof n.entries&&(n=n.entries()),n=k(n));for(var r=0;r<n.length;r++){var i=n[r],s=t[i];this[i].enabled=!1!==s&&void 0!==s}}},{key:"setupGlobalFilters",value:function(e,t,n){var r=arguments.length>3&&void 0!==arguments[3]?arguments[3]:n;if(e&&e.length){var i=r;Array.isArray(i)||("function"==typeof i.entries&&(i=i.entries()),i=k(i));for(var s=0;s<i.length;s++){var a=i[s];this[a].enabled=!1}var u=ge(e,n),o=u;Array.isArray(o)||("function"==typeof o.entries&&(o=o.entries()),o=k(o));for(var f=0;f<o.length;f++){var h=o[f],c=h[0],l=h[1];me(this[c].pick,l),this[c].enabled=!0}}else if(t&&t.length){var d=ge(t,n),p=d;Array.isArray(p)||("function"==typeof p.entries&&(p=p.entries()),p=k(p));for(var v=0;v<p.length;v++){var y=p[v],g=y[0],m=y[1];me(this[g].skip,m)}}}},{key:"filterNestedSegmentTags",value:function(){var e=this.ifd0,t=this.exif,n=this.xmp,r=this.iptc,i=this.icc;this.makerNote?t.deps.add(37500):t.skip.add(37500),this.userComment?t.deps.add(37510):t.skip.add(37510),n.enabled||e.skip.add(700),r.enabled||e.skip.add(33723),i.enabled||e.skip.add(34675)}},{key:"traverseTiffDependencyTree",value:function(){var e=this,t=this.ifd0,n=this.exif,r=this.gps;this.interop.needed&&(n.deps.add(40965),t.deps.add(40965)),n.needed&&t.deps.add(34665),r.needed&&t.deps.add(34853),this.tiff.enabled=ue.some((function(t){return!0===e[t].enabled}))||this.makerNote||this.userComment;var i=ue;Array.isArray(i)||("function"==typeof i.entries&&(i=i.entries()),i=k(i));for(var s=0;s<i.length;s++){this[i[s]].finalizeFilters()}}},{key:"checkLoadedPlugins",value:function(){var e=ae;Array.isArray(e)||("function"==typeof e.entries&&(e=e.entries()),e=k(e));for(var t=0;t<e.length;t++){var n=e[t];this[n].enabled&&!R.has(n)&&D("segment parser",n)}}},{key:"onlyTiff",get:function(){var e=this;return!se.map((function(t){return e[t].enabled})).some((function(e){return!0===e}))&&this.tiff.enabled}}]),n}(le);function ge(e,t){var n,r,i,s=[],a=t;Array.isArray(a)||("function"==typeof a.entries&&(a=a.entries()),a=k(a));for(var u=0;u<a.length;u++){r=a[u],n=[];var o=te.get(r);Array.isArray(o)||("function"==typeof o.entries&&(o=o.entries()),o=k(o));for(var f=0;f<o.length;f++)i=o[f],(e.includes(i[0])||e.includes(i[1]))&&n.push(i[0]);n.length&&s.push([r,n])}return s}function ke(e,t){return void 0!==e?e:void 0!==t?t:void 0}function me(e,t){var n=t;Array.isArray(n)||("function"==typeof n.entries&&(n=n.entries()),n=k(n));for(var r=0;r<n.length;r++){var i=n[r];e.add(i)}}i(ye,"default",pe);var be={ifd0:!1,ifd1:!1,exif:!1,gps:!1,interop:!1,sanitize:!1,reviveValues:!0,translateKeys:!1,translateValues:!1,mergeOutput:!1},we=y({},be,{firstChunkSize:4e4,gps:[1,2,3,4]}),Ae=y({},be,{firstChunkSize:4e4,ifd0:[274]}),Oe=y({},be,{tiff:!1,ifd1:!0,mergeOutput:!1});function Se(e,t,n){return n?t?t(e):e:(e&&e.then||(e=Promise.resolve(e)),t?e.then(t):e)}function Pe(e,t){var n=e();return n&&n.then?n.then(t):t(n)}function Ue(){}var xe=function(){function e(n){t(this,e),i(this,"parsers",{}),this.options=ye.useCached(n)}return r(e,[{key:"setup",value:function(){if(!this.fileParser){var e,t=this.file.getUint16(0);if(18761===t||19789===t)this.file.isTiff=!0,e=N.get("tiff");else if(65496===t)this.file.isJpeg=!0,e=N.get("jpeg");else{if(!function(e){if(0!==e.getUint16(0))return!1;var t=e.getUint16(2);if(t>50)return!1;for(var n=16,r=[];n<t;)r.push(e.getString(n,4)),n+=4;return r.includes("heic")}(this.file))throw T("Unknown file format");this.file.isHeic=!0,e=N.get("heic")}this.fileParser=new e(this.options,this.file,this.parsers)}}},{key:"read",value:function(e){try{var t=this;return Se(function(e,t){if("string"==typeof e)return Q(e,t);if(U&&!x&&e instanceof HTMLImageElement)return Q(e.src,t);if(e instanceof Uint8Array||e instanceof ArrayBuffer||e instanceof DataView)return new E(e);if(U&&e instanceof Blob)return q(e,t,"blob",H);throw T("Invalid input argument")}(e,t.options),(function(e){t.file=e}))}catch(e){return Promise.reject(e)}}},{key:"parse",value:function(){try{var e=this;return e.setup(),Se(e.fileParser.parse(),(function(){var t,n={},r=[],i=p(e.parsers).map((t=function(t){var i;return Pe((function(){return e.options.silentErrors?(n=function(e,t){try{var n=e()}catch(e){return t(e)}return n&&n.then?n.then(void 0,t):n}((function(){return Se(t.parse(),(function(e){i=e}))}),(function(e){r.push(e)})),s=function(){t.errors.length&&r.push.apply(r,t.errors)},n&&n.then?n.then(s):s(n)):Se(t.parse(),(function(e){i=e}));var n,s}),(function(){t.assignToOutput(n,i)}))},function(){for(var e=[],n=0;n<arguments.length;n++)e[n]=arguments[n];try{return Promise.resolve(t.apply(this,e))}catch(e){return Promise.reject(e)}}));return Se(Promise.all(i),(function(){var t;return e.options.silentErrors&&r.length>0&&(n.errors=r),n=V(t=n)?void 0:t,e.file.close&&e.file.close(),n}))}))}catch(e){return Promise.reject(e)}}},{key:"extractThumbnail",value:function(){try{var e=this;e.setup();var t,n=R.get("tiff",e.options);return Pe((function(){if(!e.file.isTiff)return function(e){var t=e();if(t&&t.then)return t.then(Ue)}((function(){if(e.file.isJpeg)return Se(e.fileParser.getOrFindSegment("tiff"),(function(e){t=e}))}));t={start:0,type:"tiff"}}),(function(){if(void 0!==t)return Se(e.fileParser.ensureSegmentChunk(t),(function(t){return Se((e.parsers.tiff=new n(t,e.options,e.file)).extractThumbnail(),(function(t){return e.file.close&&e.file.close(),t}))}))}))}catch(e){return Promise.reject(e)}}}]),e}();function Ce(e,t,n){return n?t?t(e):e:(e&&e.then||(e=Promise.resolve(e)),t?e.then(t):e)}function Be(e){return function(){for(var t=[],n=0;n<arguments.length;n++)t[n]=arguments[n];try{return Promise.resolve(e.apply(this,t))}catch(e){return Promise.reject(e)}}}var je=function(t){return Ce(_e(t),(function(t){return y({canvas:e.rotateCanvas,css:e.rotateCss},ze[t])}))},_e=Be((function(e){var t=new xe(Ae);return Ce(t.read(e),(function(){return Ce(t.parse(),(function(e){if(e&&e.ifd0)return e.ifd0[274]}))}))})),Ie=Be((function(e){var t=new xe(we);return Ce(t.read(e),(function(){return Ce(t.parse(),(function(e){if(e&&e.gps){var t=e.gps;return{latitude:t.latitude,longitude:t.longitude}}}))}))})),Ve=Be((function(e){return Ce(this.thumbnail(e),(function(e){if(void 0!==e){var t=new Blob([e]);return URL.createObjectURL(t)}}))})),Te=Be((function(e){var t=new xe(Oe);return Ce(t.read(e),(function(){return Ce(t.extractThumbnail(),(function(e){return e&&_?B.from(e):e}))}))})),Le=Be((function(e,t){var n=new xe(t);return Ce(n.read(e),(function(){return n.parse()}))})),ze={1:{dimensionSwapped:!1,scaleX:1,scaleY:1,deg:0,rad:0},2:{dimensionSwapped:!1,scaleX:-1,scaleY:1,deg:0,rad:0},3:{dimensionSwapped:!1,scaleX:1,scaleY:1,deg:180,rad:180*Math.PI/180},4:{dimensionSwapped:!1,scaleX:-1,scaleY:1,deg:180,rad:180*Math.PI/180},5:{dimensionSwapped:!0,scaleX:1,scaleY:-1,deg:90,rad:90*Math.PI/180},6:{dimensionSwapped:!0,scaleX:1,scaleY:1,deg:90,rad:90*Math.PI/180},7:{dimensionSwapped:!0,scaleX:1,scaleY:-1,deg:270,rad:270*Math.PI/180},8:{dimensionSwapped:!0,scaleX:1,scaleY:1,deg:270,rad:270*Math.PI/180}};if(e.rotateCanvas=!0,e.rotateCss=!0,"object"==typeof navigator){var Fe=navigator.userAgent;if(Fe.includes("iPad")||Fe.includes("iPhone")){var Ee=Fe.match(/OS (\d+)_(\d+)/),De=(Ee[0],Ee[1]),Me=Ee[2],Ne=Number(De)+.1*Number(Me);e.rotateCanvas=Ne<13.4,e.rotateCss=!1}}var Re=Object.freeze({__proto__:null,rotation:je,orientation:_e,gps:Ie,thumbnailUrl:Ve,thumbnail:Te,parse:Le,rotations:ze,get rotateCanvas(){return e.rotateCanvas},get rotateCss(){return e.rotateCss},Exifr:xe,fileParsers:N,segmentParsers:R,fileReaders:W,tagKeys:te,tagValues:ne,tagRevivers:re,createDictionary:$,extendDictionary:ee,fetchUrlAsArrayBuffer:Y,readBlobAsArrayBuffer:H,chunkedProps:ie,otherSegments:se,segments:ae,tiffBlocks:ue,segmentsAndBlocks:oe,tiffExtractables:fe,inheritables:he,allFormatters:ce,Options:ye,disableAllOptions:be,gpsOnlyOptions:we,orientationOnlyOptions:Ae,thumbnailOnlyOptions:Oe});function We(){}var Ke=function(e){function n(){var e,r;t(this,n);for(var s=arguments.length,u=new Array(s),o=0;o<s;o++)u[o]=arguments[o];return i(c(r=l(this,(e=a(n)).call.apply(e,[this].concat(u)))),"ranges",new Xe),0!==r.byteLength&&r.ranges.add(0,r.byteLength),r}return s(n,e),r(n,[{key:"_tryExtend",value:function(e,t,n){if(0===e&&0===this.byteLength&&n){var r=new DataView(n.buffer||n,n.byteOffset,n.byteLength);this._swapDataView(r)}else{var i=e+t;if(i>this.byteLength){var s=this._extend(i).dataView;this._swapDataView(s)}}}},{key:"_extend",value:function(e){var t;t=_?B.allocUnsafe(e):new Uint8Array(e);var n=new DataView(t.buffer,t.byteOffset,t.byteLength);return t.set(new Uint8Array(this.buffer,this.byteOffset,this.byteLength),0),{uintView:t,dataView:n}}},{key:"subarray",value:function(e,t){var r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];return t=t||this._lengthToEnd(e),r&&this._tryExtend(e,t),this.ranges.add(e,t),d(a(n.prototype),"subarray",this).call(this,e,t)}},{key:"set",value:function(e,t){var r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];r&&this._tryExtend(t,e.byteLength,e);var i=d(a(n.prototype),"set",this).call(this,e,t);return this.ranges.add(t,i.byteLength),i}},{key:"ensureChunk",value:function(e,t){try{if(!this.chunked)return;if(this.ranges.available(e,t))return;return function(e,t){if(!t)return e&&e.then?e.then(We):Promise.resolve()}(this.readChunk(e,t))}catch(e){return Promise.reject(e)}}},{key:"available",value:function(e,t){return this.ranges.available(e,t)}}]),n}(E),Xe=function(){function e(){t(this,e),i(this,"list",[])}return r(e,[{key:"add",value:function(e,t){var n=e+t,r=this.list.filter((function(t){return He(e,t.offset,n)||He(e,t.end,n)}));if(r.length>0){e=Math.min.apply(Math,[e].concat(r.map((function(e){return e.offset})))),t=(n=Math.max.apply(Math,[n].concat(r.map((function(e){return e.end})))))-e;var i=r.shift();i.offset=e,i.length=t,i.end=n,this.list=this.list.filter((function(e){return!r.includes(e)}))}else this.list.push({offset:e,length:t,end:n})}},{key:"available",value:function(e,t){var n=e+t;return this.list.some((function(t){return t.offset<=e&&n<=t.end}))}},{key:"length",get:function(){return this.list.length}}]),e}();function He(e,t,n){return e<=t&&t<=n}function Ye(){}function Ge(e,t){if(!t)return e&&e.then?e.then(Ye):Promise.resolve()}function Je(e,t,n){return n?t?t(e):e:(e&&e.then||(e=Promise.resolve(e)),t?e.then(t):e)}var qe=function(e){function n(){return t(this,n),l(this,a(n).apply(this,arguments))}return s(n,e),r(n,[{key:"readWhole",value:function(){try{var e=this;return e.chunked=!1,Je(H(e.input),(function(t){e._swapArrayBuffer(t)}))}catch(e){return Promise.reject(e)}}},{key:"readChunked",value:function(){return this.chunked=!0,this.size=this.input.size,d(a(n.prototype),"readChunked",this).call(this)}},{key:"_readChunk",value:function(e,t){try{var n=this,r=t?e+t:void 0,i=n.input.slice(e,r);return Je(H(i),(function(t){return n.set(t,e,!0)}))}catch(e){return Promise.reject(e)}}}]),n}(function(e){function n(e,r){var s;return t(this,n),i(c(s=l(this,a(n).call(this,0))),"chunksRead",0),s.input=e,s.options=r,s}return s(n,e),r(n,[{key:"readWhole",value:function(){try{return this.chunked=!1,Ge(this.readChunk(this.nextChunkOffset))}catch(e){return Promise.reject(e)}}},{key:"readChunked",value:function(){try{return this.chunked=!0,Ge(this.readChunk(0,this.options.firstChunkSize))}catch(e){return Promise.reject(e)}}},{key:"readNextChunk",value:function(e){try{if(void 0===e&&(e=this.nextChunkOffset),this.fullyRead)return this.chunksRead++,!1;var t=this.options.chunkSize;return n=this.readChunk(e,t),r=function(e){return!!e&&e.byteLength===t},i?r?r(n):n:(n&&n.then||(n=Promise.resolve(n)),r?n.then(r):n)}catch(e){return Promise.reject(e)}var n,r,i}},{key:"readChunk",value:function(e,t){try{if(this.chunksRead++,0===(t=this.safeWrapAddress(e,t)))return;return this._readChunk(e,t)}catch(e){return Promise.reject(e)}}},{key:"safeWrapAddress",value:function(e,t){return void 0!==this.size&&e+t>this.size?Math.max(0,this.size-e):t}},{key:"read",value:function(){return this.options.chunked?this.readChunked():this.readWhole()}},{key:"close",value:function(){}},{key:"nextChunkOffset",get:function(){if(0!==this.ranges.list.length)return this.ranges.list[0].length}},{key:"canReadNextChunk",get:function(){return this.chunksRead<this.options.chunkLimit}},{key:"fullyRead",get:function(){return void 0!==this.size&&this.nextChunkOffset===this.size}}]),n}(Ke));W.set("blob",qe);var Qe=function(){function e(n,r,s){var a,u=this;t(this,e),i(this,"ensureSegmentChunk",(a=function(e){var t,n,r,i=e.start,s=e.size||65536;return t=function(){if(u.file.chunked)return function(){if(!u.file.available(i,s))return function(e,t){try{var n=e()}catch(e){return t(e)}return n&&n.then?n.then(void 0,t):n}((function(){return t=u.file.readChunk(i,s),n=function(t){e.chunk=t},r?n?n(t):t:(t&&t.then||(t=Promise.resolve(t)),n?t.then(n):t);var t,n,r}),(function(t){throw T("Couldn't read segment: ".concat(JSON.stringify(e),". ").concat(t.message))}));e.chunk=u.file.subarray(i,s)}();if(u.file.byteLength>i+s)e.chunk=u.file.subarray(i,s);else{if(void 0!==e.size)throw T("Segment unreachable: "+JSON.stringify(e));e.chunk=u.file.subarray(i)}},n=function(t){return e.chunk},(r=t())&&r.then?r.then(n):n(r)},function(){for(var e=[],t=0;t<arguments.length;t++)e[t]=arguments[t];try{return Promise.resolve(a.apply(this,e))}catch(e){return Promise.reject(e)}})),this.extendOptions&&this.extendOptions(n),this.options=n,this.file=r,this.parsers=s}return r(e,[{key:"createParser",value:function(e,t){var n=new(R.get(e))(t,this.options,this.file);return this.parsers[e]=n}}]),e}(),Ze=function(){function e(n){var r=this,s=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},a=arguments.length>2?arguments[2]:void 0;t(this,e),i(this,"errors",[]),i(this,"raw",O()),i(this,"handleError",(function(e){if(!r.options.silentErrors)throw e;r.errors.push(e.message)})),this.chunk=this.normalizeInput(n),this.file=a,this.type=this.constructor.type,this.globalOptions=this.options=s,this.localOptions=s[this.type],this.canTranslate=this.localOptions&&this.localOptions.translate}return r(e,[{key:"normalizeInput",value:function(e){return e instanceof E?e:new E(e)}}],[{key:"findPosition",value:function(e,t){var n=e.getUint16(t+2)+2,r="function"==typeof this.headerLength?this.headerLength(e,t,n):this.headerLength,i=t+r,s=n-r;return{offset:t,length:n,headerLength:r,start:i,size:s,end:i+s}}},{key:"parse",value:function(e){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},n=new ye(i({},this.type,t)),r=new this(e,n);return r.parse()}}]),r(e,[{key:"translate",value:function(){this.canTranslate&&(this.translated=this.translateBlock(this.raw,this.type))}},{key:"translateBlock",value:function(e,t){var n=re.get(t),r=ne.get(t),i=te.get(t),s=this.options[t],a=s.reviveValues&&!!n,u=s.translateValues&&!!r,o=s.translateKeys&&!!i,f={},h=e;Array.isArray(h)||("function"==typeof h.entries&&(h=h.entries()),h=k(h));for(var c=0;c<h.length;c++){var l=h[c],d=l[0],p=l[1];a&&n.has(d)?p=n.get(d)(p):u&&r.has(d)&&(p=this.translateValue(p,r.get(d))),o&&i.has(d)&&(d=i.get(d)||d),f[d]=p}return f}},{key:"translateValue",value:function(e,t){return t[e]||e}},{key:"assignToOutput",value:function(e,t){this.assignObjectToOutput(e,this.constructor.type,t)}},{key:"assignObjectToOutput",value:function(e,t,n){if(this.globalOptions.mergeOutput)return y(e,n);e[t]?y(e[t],n):e[t]=n}},{key:"output",get:function(){return this.translated?this.translated:this.raw?g(this.raw):void 0}}]),e}();function $e(e,t,n){return n?t?t(e):e:(e&&e.then||(e=Promise.resolve(e)),t?e.then(t):e)}i(Ze,"headerLength",4),i(Ze,"type",void 0),i(Ze,"multiSegment",!1),i(Ze,"canHandle",(function(){return!1}));function et(){}function tt(e,t){if(!t)return e&&e.then?e.then(et):Promise.resolve()}function nt(e){var t=e();if(t&&t.then)return t.then(et)}function rt(e,t){var n=e();return n&&n.then?n.then(t):t(n)}function it(e,t,n){if(!e.s){if(n instanceof st){if(!n.s)return void(n.o=it.bind(null,e,t));1&t&&(t=n.s),n=n.v}if(n&&n.then)return void n.then(it.bind(null,e,t),it.bind(null,e,2));e.s=t,e.v=n;var r=e.o;r&&r(e)}}var st=function(){function e(){}return e.prototype.then=function(t,n){var r=new e,i=this.s;if(i){var s=1&i?t:n;if(s){try{it(r,1,s(this.v))}catch(e){it(r,2,e)}return r}return this}return this.o=function(e){try{var i=e.v;1&e.s?it(r,1,t?t(i):i):n?it(r,1,n(i)):it(r,2,i)}catch(e){it(r,2,e)}},r},e}();function at(e){return e instanceof st&&1&e.s}function ut(e,t,n){for(var r;;){var i=e();if(at(i)&&(i=i.v),!i)return s;if(i.then){r=0;break}var s=n();if(s&&s.then){if(!at(s)){r=1;break}s=s.s}if(t){var a=t();if(a&&a.then&&!at(a)){r=2;break}}}var u=new st,o=it.bind(null,u,2);return(0===r?i.then(h):1===r?s.then(f):a.then(c)).then(void 0,o),u;function f(r){s=r;do{if(t&&(a=t())&&a.then&&!at(a))return void a.then(c).then(void 0,o);if(!(i=e())||at(i)&&!i.v)return void it(u,1,s);if(i.then)return void i.then(h).then(void 0,o);at(s=n())&&(s=s.v)}while(!s||!s.then);s.then(f).then(void 0,o)}function h(e){e?(s=n())&&s.then?s.then(f).then(void 0,o):f(s):it(u,1,s)}function c(){(i=e())?i.then?i.then(h).then(void 0,o):h(i):it(u,1,s)}}function ot(e){return 192===e||194===e||196===e||219===e||221===e||218===e||254===e}function ft(e){return e>=224&&e<=239}function ht(e,t){var n=R;Array.isArray(n)||("function"==typeof n.entries&&(n=n.entries()),n=k(n));for(var r=0;r<n.length;r++){var i=n[r],s=i[0];if(i[1].canHandle(e,t))return s}}var ct=function(e){function n(){var e,r;t(this,n);for(var s=arguments.length,u=new Array(s),o=0;o<s;o++)u[o]=arguments[o];return i(c(r=l(this,(e=a(n)).call.apply(e,[this].concat(u)))),"appSegments",[]),i(c(r),"jpegSegments",[]),i(c(r),"unknownSegments",[]),r}return s(n,e),r(n,[{key:"parse",value:function(){try{var e=this;return $e(e.findAppSegments(),(function(){return $e(e.readSegments(),(function(){e.mergeMultiSegments(),e.createParsers()}))}))}catch(e){return Promise.reject(e)}}},{key:"readSegments",value:function(){try{var e=this.appSegments.map(this.ensureSegmentChunk);return tt(Promise.all(e))}catch(e){return Promise.reject(e)}}},{key:"setupSegmentFinderArgs",value:function(e){var t=this;!0===e?(this.findAll=!0,this.wanted=A(R.keyList())):(e=void 0===e?R.keyList().filter((function(e){return t.options[e].enabled})):e.filter((function(e){return t.options[e].enabled&&R.has(e)})),this.findAll=!1,this.remaining=A(e),this.wanted=A(e)),this.unfinishedMultiSegment=!1}},{key:"findAppSegments",value:function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:0,t=arguments.length>1?arguments[1]:void 0;try{var n=this;n.setupSegmentFinderArgs(t);var r=n.file,i=n.findAll,s=n.wanted,a=n.remaining;return rt((function(){if(!i&&n.file.chunked)return i=k(s).some((function(e){var t=R.get(e),r=n.options[e];return t.multiSegment&&r.multiSegment})),nt((function(){if(i)return tt(n.file.readWhole())}))}),(function(){var t=!1;if(e=n._findAppSegments(e,r.byteLength,i,s,a),!n.options.onlyTiff)return function(){if(r.chunked){var i=!1;return ut((function(){return!t&&a.size>0&&!i&&(!!r.canReadNextChunk||!!n.unfinishedMultiSegment)}),void 0,(function(){var s=r.nextChunkOffset,a=n.appSegments.some((function(e){return!n.file.available(e.offset||e.start,e.length||e.size)}));return rt((function(){return e>s&&!a?$e(r.readNextChunk(e),(function(e){i=!e})):$e(r.readNextChunk(s),(function(e){i=!e}))}),(function(){void 0===(e=n._findAppSegments(e,r.byteLength))&&(t=!0)}))}))}}()}))}catch(e){return Promise.reject(e)}}},{key:"_findAppSegments",value:function(e,t){for(var n,r,i,s,a,u,o=this.file,f=this.findAll,h=this.wanted,c=this.remaining,l=this.options;e<t;e++)if(255===o.getUint8(e))if(ft(n=o.getUint8(e+1))){if(r=o.getUint16(e+2),(i=ht(o,e))&&h.has(i)&&(a=(s=R.get(i)).findPosition(o,e),u=l[i],a.type=i,this.appSegments.push(a),!f&&(s.multiSegment&&u.multiSegment?(this.unfinishedMultiSegment=a.chunkNumber<a.chunkCount,this.unfinishedMultiSegment||c.delete(i)):c.delete(i),0===c.size)))break;l.recordUnknownSegments&&((a=Ze.findPosition(o,e)).marker=n,this.unknownSegments.push(a)),e+=r+1}else if(ot(n)){if(r=o.getUint16(e+2),218===n&&!1!==l.stopAfterSos)return;l.recordJpegSegments&&this.jpegSegments.push({offset:e,length:r,marker:n}),e+=r+1}return e}},{key:"mergeMultiSegments",value:function(){var e=this;if(this.appSegments.some((function(e){return e.multiSegment}))){var t=function(e,t){for(var n,r,i,s=O(),a=0;a<e.length;a++)n=e[a],r=n[t],s.has(r)?i=s.get(r):s.set(r,i=[]),i.push(n);return k(s)}(this.appSegments,"type");this.mergedAppSegments=t.map((function(t){var n=t[0],r=t[1],i=R.get(n,e.options);return i.handleMultiSegments?{type:n,chunk:i.handleMultiSegments(r)}:r[0]}))}}},{key:"createParsers",value:function(){try{var e=this.mergedAppSegments||this.appSegments;Array.isArray(e)||("function"==typeof e.entries&&(e=e.entries()),e=k(e));for(var t=0;t<e.length;t++){var n=e[t],r=n.type,i=n.chunk;if(this.options[r].enabled){var s=this.parsers[r];if(s&&s.append);else if(!s){var a=new(R.get(r,this.options))(i,this.options,this.file);this.parsers[r]=a}}}return $e()}catch(e){return Promise.reject(e)}}},{key:"getSegment",value:function(e){return this.appSegments.find((function(t){return t.type===e}))}},{key:"getOrFindSegment",value:function(e){try{var t=this,n=t.getSegment(e);return rt((function(){if(void 0===n)return $e(t.findAppSegments(0,[e]),(function(){n=t.getSegment(e)}))}),(function(){return n}))}catch(e){return Promise.reject(e)}}}]),n}(Qe);function lt(){}N.set("jpeg",ct);function dt(e,t){if(!t)return e&&e.then?e.then(lt):Promise.resolve()}function pt(e,t){var n=e();return n&&n.then?n.then(t):t(n)}var vt=[void 0,1,1,2,4,8,1,1,2,4,8,4,8,4];var yt=function(e){function n(){return t(this,n),l(this,a(n).apply(this,arguments))}return s(n,e),r(n,[{key:"parse",value:function(){try{var e=this;return e.parseHeader(),pt((function(){if(e.options.ifd0.enabled)return dt(e.parseIfd0Block())}),(function(){return pt((function(){if(e.options.exif.enabled)return dt(e.saveParseBlock("parseExifBlock"))}),(function(){return pt((function(){if(e.options.gps.enabled)return dt(e.saveParseBlock("parseGpsBlock"))}),(function(){return pt((function(){if(e.options.interop.enabled)return dt(e.saveParseBlock("parseInteropBlock"))}),(function(){return pt((function(){if(e.options.ifd1.enabled)return dt(e.saveParseBlock("parseThumbnailBlock"))}),(function(){return e.createOutput()}))}))}))}))}))}catch(e){return Promise.reject(e)}}},{key:"saveParseBlock",value:function(e){try{var t=this;return function(e,t){try{var n=e()}catch(e){return t(e)}return n&&n.then?n.then(void 0,t):n}((function(){return n=t[e](),i?r?r(n):n:(n&&n.then||(n=Promise.resolve(n)),r?n.then(r):n);var n,r,i}),(function(e){t.handleError(e)}))}catch(e){return Promise.reject(e)}}},{key:"findIfd0Offset",value:function(){void 0===this.ifd0Offset&&(this.ifd0Offset=this.chunk.getUint32(4))}},{key:"findIfd1Offset",value:function(){if(void 0===this.ifd1Offset){this.findIfd0Offset();var e=this.chunk.getUint16(this.ifd0Offset),t=this.ifd0Offset+2+12*e;this.ifd1Offset=this.chunk.getUint32(t)}}},{key:"parseBlock",value:function(e,t){var n=O();return this[t]=n,this.parseTags(e,t,n),n}},{key:"parseIfd0Block",value:function(){try{var e=this;if(e.ifd0)return;if(e.findIfd0Offset(),e.ifd0Offset<8)throw T("Invalid EXIF data: IFD0 offset should be less than 8");if(!e.file.chunked&&e.ifd0Offset>e.file.byteLength)throw T("IFD0 offset points to outside of file.\nthis.ifd0Offset: ".concat(e.ifd0Offset,", file.byteLength: ").concat(e.file.byteLength));return pt((function(){if(e.file.isTiff)return dt(e.file.ensureChunk(e.ifd0Offset,L(e.options)))}),(function(){var t=e.parseBlock(e.ifd0Offset,"ifd0");if(0!==t.size)return e.exifOffset=t.get(34665),e.interopOffset=t.get(40965),e.gpsOffset=t.get(34853),e.xmp=t.get(700),e.iptc=t.get(33723),e.icc=t.get(34675),e.options.sanitize&&(t.delete(34665),t.delete(40965),t.delete(34853),t.delete(700),t.delete(33723),t.delete(34675)),t}))}catch(e){return Promise.reject(e)}}},{key:"ensureBlockChunk",value:function(e,t){try{var n=this;return pt((function(){if(n.file.isTiff)return dt(n.file.ensureChunk(e,t))}),(function(){e>n.chunk.byteLength&&(n.chunk=E.from(n.file,n.le))}))}catch(e){return Promise.reject(e)}}},{key:"parseExifBlock",value:function(){try{var e=this;if(e.exif)return;return pt((function(){if(!e.ifd0)return dt(e.parseIfd0Block())}),(function(){if(void 0!==e.exifOffset)return pt((function(){if(e.file.isTiff)return dt(e.file.ensureChunk(e.exifOffset,L(e.options)))}),(function(){var t=e.parseBlock(e.exifOffset,"exif");return e.interopOffset||(e.interopOffset=t.get(40965)),e.makerNote=t.get(37500),e.userComment=t.get(37510),e.options.sanitize&&(t.delete(40965),t.delete(37500),t.delete(37510)),e.unpack(t,41728),e.unpack(t,41729),t}))}))}catch(e){return Promise.reject(e)}}},{key:"unpack",value:function(e,t){var n=e.get(t);n&&1===n.length&&e.set(t,n[0])}},{key:"parseGpsBlock",value:function(){try{var e=this;if(e.gps)return;return pt((function(){if(!e.ifd0)return dt(e.parseIfd0Block())}),(function(){if(void 0!==e.gpsOffset){var t=e.parseBlock(e.gpsOffset,"gps");return t&&t.has(2)&&t.has(4)&&(t.set("latitude",gt.apply(void 0,t.get(2).concat([t.get(1)]))),t.set("longitude",gt.apply(void 0,t.get(4).concat([t.get(3)])))),t}}))}catch(e){return Promise.reject(e)}}},{key:"parseInteropBlock",value:function(){try{var e=this;if(e.interop)return;return pt((function(){if(!e.ifd0)return dt(e.parseIfd0Block())}),(function(){return pt((function(){if(void 0===e.interopOffset&&!e.exif)return dt(e.parseExifBlock())}),(function(){if(void 0!==e.interopOffset)return e.parseBlock(e.interopOffset,"interop")}))}))}catch(e){return Promise.reject(e)}}},{key:"parseThumbnailBlock",value:function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];try{var t=this;if(t.ifd1||t.ifd1Parsed)return;if(t.options.mergeOutput&&!e)return;return t.findIfd1Offset(),t.ifd1Offset>0&&(t.parseBlock(t.ifd1Offset,"ifd1"),t.ifd1Parsed=!0),t.ifd1}catch(e){return Promise.reject(e)}}},{key:"extractThumbnail",value:function(){try{var e=this;return e.headerParsed||e.parseHeader(),pt((function(){if(!e.ifd1Parsed)return dt(e.parseThumbnailBlock(!0))}),(function(){if(void 0!==e.ifd1){var t=e.ifd1.get(513),n=e.ifd1.get(514);return e.chunk.getUint8Array(t,n)}}))}catch(e){return Promise.reject(e)}}},{key:"createOutput",value:function(){var e,t,n,r={},i=ue;Array.isArray(i)||("function"==typeof i.entries&&(i=i.entries()),i=k(i));for(var s=0;s<i.length;s++)if(!V(e=this[t=i[s]]))if(n=this.canTranslate?this.translateBlock(e,t):g(e),this.options.mergeOutput){if("ifd1"===t)continue;y(r,n)}else r[t]=n;return this.makerNote&&(r.makerNote=this.makerNote),this.userComment&&(r.userComment=this.userComment),r}},{key:"assignToOutput",value:function(e,t){if(this.globalOptions.mergeOutput)y(e,t);else{var n=v(t);Array.isArray(n)||("function"==typeof n.entries&&(n=n.entries()),n=k(n));for(var r=0;r<n.length;r++){var i=n[r],s=i[0],a=i[1];this.assignObjectToOutput(e,s,a)}}}},{key:"image",get:function(){return this.ifd0}},{key:"thumbnail",get:function(){return this.ifd1}}],[{key:"canHandle",value:function(e,t){return 225===e.getUint8(t+1)&&1165519206===e.getUint32(t+4)&&0===e.getUint16(t+8)}}]),n}(function(e){function n(){return t(this,n),l(this,a(n).apply(this,arguments))}return s(n,e),r(n,[{key:"parseHeader",value:function(){var e=this.chunk.getUint16();if(18761===e)this.le=!0;else{if(19789!==e)throw T("Invalid EXIF data: expected byte order marker (0x4949 or 0x4D4D).");this.le=!1}if(this.chunk.le=this.le,42!==this.chunk.getUint16(2))throw T("Invalid EXIF data: expected 0x002A.");this.headerParsed=!0}},{key:"parseTags",value:function(e,t){var n=arguments.length>2&&void 0!==arguments[2]?arguments[2]:O(),r=this.options[t],i=r.pick,s=r.skip,a=(i=A(i)).size>0,u=0===s.size,o=this.chunk.getUint16(e);e+=2;for(var f=0;f<o;f++){var h=this.chunk.getUint16(e);if(a){if(i.has(h)&&(n.set(h,this.parseTag(e,h,t)),i.delete(h),0===i.size))break}else!u&&s.has(h)||n.set(h,this.parseTag(e,h,t));e+=12}return n}},{key:"parseTag",value:function(e,t,n){var r,i=this.chunk.getUint16(e+2),s=this.chunk.getUint32(e+4),a=vt[i];if(a*s<=4?e+=8:e=this.chunk.getUint32(e+8),i<1||i>13)throw T("Invalid TIFF value type. block: ".concat(n.toUpperCase(),", tag: ").concat(t.toString(16),", type: ").concat(i,", offset ").concat(e));if(e>this.chunk.byteLength)throw T("Invalid TIFF value offset. block: ".concat(n.toUpperCase(),", tag: ").concat(t.toString(16),", type: ").concat(i,", offset ").concat(e," is outside of chunk size ").concat(this.chunk.byteLength));if(1===i)return this.chunk.getUint8Array(e,s);if(2===i)return""===(r=function(e){for(;e.endsWith("\0");)e=e.slice(0,-1);return e}(r=this.chunk.getString(e,s)).trim())?void 0:r;if(7===i)return this.chunk.getUint8Array(e,s);if(1===s)return this.parseTagValue(i,e);for(var u=new(function(e){switch(e){case 1:return Uint8Array;case 3:return Uint16Array;case 4:return Uint32Array;case 5:return Array;case 6:return Int8Array;case 8:return Int16Array;case 9:return Int32Array;case 10:return Array;case 11:return Float32Array;case 12:return Float64Array;default:return Array}}(i))(s),o=a,f=0;f<s;f++)u[f]=this.parseTagValue(i,e),e+=o;return u}},{key:"parseTagValue",value:function(e,t){switch(e){case 1:return this.chunk.getUint8(t);case 3:return this.chunk.getUint16(t);case 4:return this.chunk.getUint32(t);case 5:return this.chunk.getUint32(t)/this.chunk.getUint32(t+4);case 6:return this.chunk.getInt8(t);case 8:return this.chunk.getInt16(t);case 9:return this.chunk.getInt32(t);case 10:return this.chunk.getInt32(t)/this.chunk.getInt32(t+4);case 11:return this.chunk.getFloat(t);case 12:return this.chunk.getDouble(t);case 13:return this.chunk.getUint32(t);default:throw T("Invalid tiff type ".concat(e))}}}]),n}(Ze));function gt(e,t,n,r){var i=e+t/60+n/3600;return"S"!==r&&"W"!==r||(i*=-1),i}i(yt,"type","tiff"),i(yt,"headerLength",10),R.set("tiff",yt),e.Exifr=xe,e.Options=ye,e.allFormatters=ce,e.chunkedProps=ie,e.createDictionary=$,e.default=Re,e.disableAllOptions=be,e.extendDictionary=ee,e.fetchUrlAsArrayBuffer=Y,e.fileParsers=N,e.fileReaders=W,e.gps=Ie,e.gpsOnlyOptions=we,e.inheritables=he,e.orientation=_e,e.orientationOnlyOptions=Ae,e.otherSegments=se,e.parse=Le,e.readBlobAsArrayBuffer=H,e.rotation=je,e.rotations=ze,e.segmentParsers=R,e.segments=ae,e.segmentsAndBlocks=oe,e.tagKeys=te,e.tagRevivers=re,e.tagValues=ne,e.thumbnail=Te,e.thumbnailOnlyOptions=Oe,e.thumbnailUrl=Ve,e.tiffBlocks=ue,e.tiffExtractables=fe,Object.defineProperty(e,"__esModule",{value:!0})}));
 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js"), __webpack_require__(/*! ./../../process/browser.js */ "./node_modules/process/browser.js"), __webpack_require__(/*! ./../../buffer/index.js */ "./node_modules/buffer/index.js").Buffer))
+
+/***/ }),
+
+/***/ "./node_modules/highlight.js/lib/core.js":
+/*!***********************************************!*\
+  !*** ./node_modules/highlight.js/lib/core.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// https://github.com/substack/deep-freeze/blob/master/index.js
+function deepFreeze (o) {
+  Object.freeze(o);
+
+  var objIsFunction = typeof o === 'function';
+
+  Object.getOwnPropertyNames(o).forEach(function (prop) {
+    if (o.hasOwnProperty(prop)
+    && o[prop] !== null
+    && (typeof o[prop] === "object" || typeof o[prop] === "function")
+    // IE11 fix: https://github.com/highlightjs/highlight.js/issues/2318
+    // TODO: remove in the future
+    && (objIsFunction ? prop !== 'caller' && prop !== 'callee' && prop !== 'arguments' : true)
+    && !Object.isFrozen(o[prop])) {
+      deepFreeze(o[prop]);
+    }
+  });
+
+  return o;
+}
+
+function escapeHTML(value) {
+  return value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+
+/**
+ * performs a shallow merge of multiple objects into one
+ *
+ * @arguments list of objects with properties to merge
+ * @returns a single new object
+ */
+function inherit(parent) {  // inherit(parent, override_obj, override_obj, ...)
+  var key;
+  var result = {};
+  var objects = Array.prototype.slice.call(arguments, 1);
+
+  for (key in parent)
+    result[key] = parent[key];
+  objects.forEach(function(obj) {
+    for (key in obj)
+      result[key] = obj[key];
+  });
+  return result;
+}
+
+/* Stream merging */
+
+
+function tag(node) {
+  return node.nodeName.toLowerCase();
+}
+
+
+function nodeStream(node) {
+  var result = [];
+  (function _nodeStream(node, offset) {
+    for (var child = node.firstChild; child; child = child.nextSibling) {
+      if (child.nodeType === 3)
+        offset += child.nodeValue.length;
+      else if (child.nodeType === 1) {
+        result.push({
+          event: 'start',
+          offset: offset,
+          node: child
+        });
+        offset = _nodeStream(child, offset);
+        // Prevent void elements from having an end tag that would actually
+        // double them in the output. There are more void elements in HTML
+        // but we list only those realistically expected in code display.
+        if (!tag(child).match(/br|hr|img|input/)) {
+          result.push({
+            event: 'stop',
+            offset: offset,
+            node: child
+          });
+        }
+      }
+    }
+    return offset;
+  })(node, 0);
+  return result;
+}
+
+function mergeStreams(original, highlighted, value) {
+  var processed = 0;
+  var result = '';
+  var nodeStack = [];
+
+  function selectStream() {
+    if (!original.length || !highlighted.length) {
+      return original.length ? original : highlighted;
+    }
+    if (original[0].offset !== highlighted[0].offset) {
+      return (original[0].offset < highlighted[0].offset) ? original : highlighted;
+    }
+
+    /*
+    To avoid starting the stream just before it should stop the order is
+    ensured that original always starts first and closes last:
+
+    if (event1 == 'start' && event2 == 'start')
+      return original;
+    if (event1 == 'start' && event2 == 'stop')
+      return highlighted;
+    if (event1 == 'stop' && event2 == 'start')
+      return original;
+    if (event1 == 'stop' && event2 == 'stop')
+      return highlighted;
+
+    ... which is collapsed to:
+    */
+    return highlighted[0].event === 'start' ? original : highlighted;
+  }
+
+  function open(node) {
+    function attr_str(a) {
+      return ' ' + a.nodeName + '="' + escapeHTML(a.value).replace(/"/g, '&quot;') + '"';
+    }
+    result += '<' + tag(node) + [].map.call(node.attributes, attr_str).join('') + '>';
+  }
+
+  function close(node) {
+    result += '</' + tag(node) + '>';
+  }
+
+  function render(event) {
+    (event.event === 'start' ? open : close)(event.node);
+  }
+
+  while (original.length || highlighted.length) {
+    var stream = selectStream();
+    result += escapeHTML(value.substring(processed, stream[0].offset));
+    processed = stream[0].offset;
+    if (stream === original) {
+      /*
+      On any opening or closing tag of the original markup we first close
+      the entire highlighted node stack, then render the original tag along
+      with all the following original tags at the same offset and then
+      reopen all the tags on the highlighted stack.
+      */
+      nodeStack.reverse().forEach(close);
+      do {
+        render(stream.splice(0, 1)[0]);
+        stream = selectStream();
+      } while (stream === original && stream.length && stream[0].offset === processed);
+      nodeStack.reverse().forEach(open);
+    } else {
+      if (stream[0].event === 'start') {
+        nodeStack.push(stream[0].node);
+      } else {
+        nodeStack.pop();
+      }
+      render(stream.splice(0, 1)[0]);
+    }
+  }
+  return result + escapeHTML(value.substr(processed));
+}
+
+var utils = /*#__PURE__*/Object.freeze({
+  __proto__: null,
+  escapeHTML: escapeHTML,
+  inherit: inherit,
+  nodeStream: nodeStream,
+  mergeStreams: mergeStreams
+});
+
+const SPAN_CLOSE = '</span>';
+
+const emitsWrappingTags = (node) => {
+  return !!node.kind;
+};
+
+class HTMLRenderer {
+  constructor(tree, options) {
+    this.buffer = "";
+    this.classPrefix = options.classPrefix;
+    tree.walk(this);
+  }
+
+  // renderer API
+
+  addText(text) {
+    this.buffer += escapeHTML(text);
+  }
+
+  openNode(node) {
+    if (!emitsWrappingTags(node)) return;
+
+    let className = node.kind;
+    if (!node.sublanguage)
+      className = `${this.classPrefix}${className}`;
+    this.span(className);
+  }
+
+  closeNode(node) {
+    if (!emitsWrappingTags(node)) return;
+
+    this.buffer += SPAN_CLOSE;
+  }
+
+  // helpers
+
+  span(className) {
+    this.buffer += `<span class="${className}">`;
+  }
+
+  value() {
+    return this.buffer;
+  }
+}
+
+class TokenTree {
+  constructor() {
+    this.rootNode = { children: [] };
+    this.stack = [ this.rootNode ];
+  }
+
+  get top() {
+    return this.stack[this.stack.length - 1];
+  }
+
+  get root() { return this.rootNode };
+
+  add(node) {
+    this.top.children.push(node);
+  }
+
+  openNode(kind) {
+    let node = { kind, children: [] };
+    this.add(node);
+    this.stack.push(node);
+  }
+
+  closeNode() {
+    if (this.stack.length > 1)
+      return this.stack.pop();
+  }
+
+  closeAllNodes() {
+    while (this.closeNode());
+  }
+
+  toJSON() {
+    return JSON.stringify(this.rootNode, null, 4);
+  }
+
+  walk(builder) {
+    return this.constructor._walk(builder, this.rootNode);
+  }
+
+  static _walk(builder, node) {
+    if (typeof node === "string") {
+      builder.addText(node);
+    } else if (node.children) {
+      builder.openNode(node);
+      node.children.forEach((child) => this._walk(builder, child));
+      builder.closeNode(node);
+    }
+    return builder;
+  }
+
+  static _collapse(node) {
+    if (!node.children) {
+      return;
+    }
+    if (node.children.every(el => typeof el === "string")) {
+      node.text = node.children.join("");
+      delete node["children"];
+    } else {
+      node.children.forEach((child) => {
+        if (typeof child === "string") return;
+        TokenTree._collapse(child);
+      });
+    }
+  }
+}
+
+/**
+  Currently this is all private API, but this is the minimal API necessary
+  that an Emitter must implement to fully support the parser.
+
+  Minimal interface:
+
+  - addKeyword(text, kind)
+  - addText(text)
+  - addSublanguage(emitter, subLangaugeName)
+  - finalize()
+  - openNode(kind)
+  - closeNode()
+  - closeAllNodes()
+  - toHTML()
+
+*/
+class TokenTreeEmitter extends TokenTree {
+  constructor(options) {
+    super();
+    this.options = options;
+  }
+
+  addKeyword(text, kind) {
+    if (text === "") { return; }
+
+    this.openNode(kind);
+    this.addText(text);
+    this.closeNode();
+  }
+
+  addText(text) {
+    if (text === "") { return; }
+
+    this.add(text);
+  }
+
+  addSublanguage(emitter, name) {
+    let node = emitter.root;
+    node.kind = name;
+    node.sublanguage = true;
+    this.add(node);
+  }
+
+  toHTML() {
+    let renderer = new HTMLRenderer(this, this.options);
+    return renderer.value();
+  }
+
+  finalize() {
+    return;
+  }
+
+}
+
+function escape(value) {
+  return new RegExp(value.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&'), 'm');
+}
+
+function source(re) {
+  // if it's a regex get it's source,
+  // otherwise it's a string already so just return it
+  return (re && re.source) || re;
+}
+
+function countMatchGroups(re) {
+  return (new RegExp(re.toString() + '|')).exec('').length - 1;
+}
+
+function startsWith(re, lexeme) {
+  var match = re && re.exec(lexeme);
+  return match && match.index === 0;
+}
+
+// join logically computes regexps.join(separator), but fixes the
+// backreferences so they continue to match.
+// it also places each individual regular expression into it's own
+// match group, keeping track of the sequencing of those match groups
+// is currently an exercise for the caller. :-)
+function join(regexps, separator) {
+  // backreferenceRe matches an open parenthesis or backreference. To avoid
+  // an incorrect parse, it additionally matches the following:
+  // - [...] elements, where the meaning of parentheses and escapes change
+  // - other escape sequences, so we do not misparse escape sequences as
+  //   interesting elements
+  // - non-matching or lookahead parentheses, which do not capture. These
+  //   follow the '(' with a '?'.
+  var backreferenceRe = /\[(?:[^\\\]]|\\.)*\]|\(\??|\\([1-9][0-9]*)|\\./;
+  var numCaptures = 0;
+  var ret = '';
+  for (var i = 0; i < regexps.length; i++) {
+    numCaptures += 1;
+    var offset = numCaptures;
+    var re = source(regexps[i]);
+    if (i > 0) {
+      ret += separator;
+    }
+    ret += "(";
+    while (re.length > 0) {
+      var match = backreferenceRe.exec(re);
+      if (match == null) {
+        ret += re;
+        break;
+      }
+      ret += re.substring(0, match.index);
+      re = re.substring(match.index + match[0].length);
+      if (match[0][0] == '\\' && match[1]) {
+        // Adjust the backreference.
+        ret += '\\' + String(Number(match[1]) + offset);
+      } else {
+        ret += match[0];
+        if (match[0] == '(') {
+          numCaptures++;
+        }
+      }
+    }
+    ret += ")";
+  }
+  return ret;
+}
+
+// Common regexps
+const IDENT_RE = '[a-zA-Z]\\w*';
+const UNDERSCORE_IDENT_RE = '[a-zA-Z_]\\w*';
+const NUMBER_RE = '\\b\\d+(\\.\\d+)?';
+const C_NUMBER_RE = '(-?)(\\b0[xX][a-fA-F0-9]+|(\\b\\d+(\\.\\d*)?|\\.\\d+)([eE][-+]?\\d+)?)'; // 0x..., 0..., decimal, float
+const BINARY_NUMBER_RE = '\\b(0b[01]+)'; // 0b...
+const RE_STARTERS_RE = '!|!=|!==|%|%=|&|&&|&=|\\*|\\*=|\\+|\\+=|,|-|-=|/=|/|:|;|<<|<<=|<=|<|===|==|=|>>>=|>>=|>=|>>>|>>|>|\\?|\\[|\\{|\\(|\\^|\\^=|\\||\\|=|\\|\\||~';
+
+// Common modes
+const BACKSLASH_ESCAPE = {
+  begin: '\\\\[\\s\\S]', relevance: 0
+};
+const APOS_STRING_MODE = {
+  className: 'string',
+  begin: '\'', end: '\'',
+  illegal: '\\n',
+  contains: [BACKSLASH_ESCAPE]
+};
+const QUOTE_STRING_MODE = {
+  className: 'string',
+  begin: '"', end: '"',
+  illegal: '\\n',
+  contains: [BACKSLASH_ESCAPE]
+};
+const PHRASAL_WORDS_MODE = {
+  begin: /\b(a|an|the|are|I'm|isn't|don't|doesn't|won't|but|just|should|pretty|simply|enough|gonna|going|wtf|so|such|will|you|your|they|like|more)\b/
+};
+const COMMENT = function (begin, end, inherits) {
+  var mode = inherit(
+    {
+      className: 'comment',
+      begin: begin, end: end,
+      contains: []
+    },
+    inherits || {}
+  );
+  mode.contains.push(PHRASAL_WORDS_MODE);
+  mode.contains.push({
+    className: 'doctag',
+    begin: '(?:TODO|FIXME|NOTE|BUG|XXX):',
+    relevance: 0
+  });
+  return mode;
+};
+const C_LINE_COMMENT_MODE = COMMENT('//', '$');
+const C_BLOCK_COMMENT_MODE = COMMENT('/\\*', '\\*/');
+const HASH_COMMENT_MODE = COMMENT('#', '$');
+const NUMBER_MODE = {
+  className: 'number',
+  begin: NUMBER_RE,
+  relevance: 0
+};
+const C_NUMBER_MODE = {
+  className: 'number',
+  begin: C_NUMBER_RE,
+  relevance: 0
+};
+const BINARY_NUMBER_MODE = {
+  className: 'number',
+  begin: BINARY_NUMBER_RE,
+  relevance: 0
+};
+const CSS_NUMBER_MODE = {
+  className: 'number',
+  begin: NUMBER_RE + '(' +
+    '%|em|ex|ch|rem'  +
+    '|vw|vh|vmin|vmax' +
+    '|cm|mm|in|pt|pc|px' +
+    '|deg|grad|rad|turn' +
+    '|s|ms' +
+    '|Hz|kHz' +
+    '|dpi|dpcm|dppx' +
+    ')?',
+  relevance: 0
+};
+const REGEXP_MODE = {
+  // this outer rule makes sure we actually have a WHOLE regex and not simply
+  // an expression such as:
+  //
+  //     3 / something
+  //
+  // (which will then blow up when regex's `illegal` sees the newline)
+  begin: /(?=\/[^\/\n]*\/)/,
+  contains: [{
+    className: 'regexp',
+    begin: /\//, end: /\/[gimuy]*/,
+    illegal: /\n/,
+    contains: [
+      BACKSLASH_ESCAPE,
+      {
+        begin: /\[/, end: /\]/,
+        relevance: 0,
+        contains: [BACKSLASH_ESCAPE]
+      }
+    ]
+  }]
+};
+const TITLE_MODE = {
+  className: 'title',
+  begin: IDENT_RE,
+  relevance: 0
+};
+const UNDERSCORE_TITLE_MODE = {
+  className: 'title',
+  begin: UNDERSCORE_IDENT_RE,
+  relevance: 0
+};
+const METHOD_GUARD = {
+  // excludes method names from keyword processing
+  begin: '\\.\\s*' + UNDERSCORE_IDENT_RE,
+  relevance: 0
+};
+
+var MODES = /*#__PURE__*/Object.freeze({
+  __proto__: null,
+  IDENT_RE: IDENT_RE,
+  UNDERSCORE_IDENT_RE: UNDERSCORE_IDENT_RE,
+  NUMBER_RE: NUMBER_RE,
+  C_NUMBER_RE: C_NUMBER_RE,
+  BINARY_NUMBER_RE: BINARY_NUMBER_RE,
+  RE_STARTERS_RE: RE_STARTERS_RE,
+  BACKSLASH_ESCAPE: BACKSLASH_ESCAPE,
+  APOS_STRING_MODE: APOS_STRING_MODE,
+  QUOTE_STRING_MODE: QUOTE_STRING_MODE,
+  PHRASAL_WORDS_MODE: PHRASAL_WORDS_MODE,
+  COMMENT: COMMENT,
+  C_LINE_COMMENT_MODE: C_LINE_COMMENT_MODE,
+  C_BLOCK_COMMENT_MODE: C_BLOCK_COMMENT_MODE,
+  HASH_COMMENT_MODE: HASH_COMMENT_MODE,
+  NUMBER_MODE: NUMBER_MODE,
+  C_NUMBER_MODE: C_NUMBER_MODE,
+  BINARY_NUMBER_MODE: BINARY_NUMBER_MODE,
+  CSS_NUMBER_MODE: CSS_NUMBER_MODE,
+  REGEXP_MODE: REGEXP_MODE,
+  TITLE_MODE: TITLE_MODE,
+  UNDERSCORE_TITLE_MODE: UNDERSCORE_TITLE_MODE,
+  METHOD_GUARD: METHOD_GUARD
+});
+
+// keywords that should have no default relevance value
+var COMMON_KEYWORDS = 'of and for in not or if then'.split(' ');
+
+// compilation
+
+function compileLanguage(language) {
+
+  function langRe(value, global) {
+    return new RegExp(
+      source(value),
+      'm' + (language.case_insensitive ? 'i' : '') + (global ? 'g' : '')
+    );
+  }
+
+  /**
+    Stores multiple regular expressions and allows you to quickly search for
+    them all in a string simultaneously - returning the first match.  It does
+    this by creating a huge (a|b|c) regex - each individual item wrapped with ()
+    and joined by `|` - using match groups to track position.  When a match is
+    found checking which position in the array has content allows us to figure
+    out which of the original regexes / match groups triggered the match.
+
+    The match object itself (the result of `Regex.exec`) is returned but also
+    enhanced by merging in any meta-data that was registered with the regex.
+    This is how we keep track of which mode matched, and what type of rule
+    (`illegal`, `begin`, end, etc).
+  */
+  class MultiRegex {
+    constructor() {
+      this.matchIndexes = {};
+      this.regexes = [];
+      this.matchAt = 1;
+      this.position = 0;
+    }
+
+    addRule(re, opts) {
+      opts.position = this.position++;
+      this.matchIndexes[this.matchAt] = opts;
+      this.regexes.push([opts, re]);
+      this.matchAt += countMatchGroups(re) + 1;
+    }
+
+    compile() {
+      if (this.regexes.length === 0) {
+        // avoids the need to check length every time exec is called
+        this.exec = () => null;
+      }
+      let terminators = this.regexes.map(el => el[1]);
+      this.matcherRe = langRe(join(terminators, '|'), true);
+      this.lastIndex = 0;
+    }
+
+    exec(s) {
+      this.matcherRe.lastIndex = this.lastIndex;
+      let match = this.matcherRe.exec(s);
+      if (!match) { return null; }
+
+      let i = match.findIndex((el, i) => i>0 && el!=undefined);
+      let matchData = this.matchIndexes[i];
+
+      return Object.assign(match, matchData);
+    }
+  }
+
+  /*
+    Created to solve the key deficiently with MultiRegex - there is no way to
+    test for multiple matches at a single location.  Why would we need to do
+    that?  In the future a more dynamic engine will allow certain matches to be
+    ignored.  An example: if we matched say the 3rd regex in a large group but
+    decided to ignore it - we'd need to started testing again at the 4th
+    regex... but MultiRegex itself gives us no real way to do that.
+
+    So what this class creates MultiRegexs on the fly for whatever search
+    position they are needed.
+
+    NOTE: These additional MultiRegex objects are created dynamically.  For most
+    grammars most of the time we will never actually need anything more than the
+    first MultiRegex - so this shouldn't have too much overhead.
+
+    Say this is our search group, and we match regex3, but wish to ignore it.
+
+      regex1 | regex2 | regex3 | regex4 | regex5    ' ie, startAt = 0
+
+    What we need is a new MultiRegex that only includes the remaining
+    possibilities:
+
+      regex4 | regex5                               ' ie, startAt = 3
+
+    This class wraps all that complexity up in a simple API... `startAt` decides
+    where in the array of expressions to start doing the matching. It
+    auto-increments, so if a match is found at position 2, then startAt will be
+    set to 3.  If the end is reached startAt will return to 0.
+
+    MOST of the time the parser will be setting startAt manually to 0.
+  */
+  class ResumableMultiRegex {
+    constructor() {
+      this.rules = [];
+      this.multiRegexes = [];
+      this.count = 0;
+
+      this.lastIndex = 0;
+      this.regexIndex = 0;
+    }
+
+    getMatcher(index) {
+      if (this.multiRegexes[index]) return this.multiRegexes[index];
+
+      let matcher = new MultiRegex();
+      this.rules.slice(index).forEach(([re, opts])=> matcher.addRule(re,opts));
+      matcher.compile();
+      this.multiRegexes[index] = matcher;
+      return matcher;
+    }
+
+    considerAll() {
+      this.regexIndex = 0;
+    }
+
+    addRule(re, opts) {
+      this.rules.push([re, opts]);
+      if (opts.type==="begin") this.count++;
+    }
+
+    exec(s) {
+      let m = this.getMatcher(this.regexIndex);
+      m.lastIndex = this.lastIndex;
+      let result = m.exec(s);
+      if (result) {
+        this.regexIndex += result.position + 1;
+        if (this.regexIndex === this.count) // wrap-around
+          this.regexIndex = 0;
+      }
+
+      // this.regexIndex = 0;
+      return result;
+    }
+  }
+
+  function buildModeRegex(mode) {
+
+    let mm = new ResumableMultiRegex();
+
+    mode.contains.forEach(term => mm.addRule(term.begin, {rule: term, type: "begin" }));
+
+    if (mode.terminator_end)
+      mm.addRule(mode.terminator_end, {type: "end"} );
+    if (mode.illegal)
+      mm.addRule(mode.illegal, {type: "illegal"} );
+
+    return mm;
+  }
+
+  // TODO: We need negative look-behind support to do this properly
+  function skipIfhasPrecedingOrTrailingDot(match) {
+    let before = match.input[match.index-1];
+    let after = match.input[match.index + match[0].length];
+    if (before === "." || after === ".") {
+      return {ignoreMatch: true };
+    }
+  }
+
+  /** skip vs abort vs ignore
+   *
+   * @skip   - The mode is still entered and exited normally (and contains rules apply),
+   *           but all content is held and added to the parent buffer rather than being
+   *           output when the mode ends.  Mostly used with `sublanguage` to build up
+   *           a single large buffer than can be parsed by sublanguage.
+   *
+   *             - The mode begin ands ends normally.
+   *             - Content matched is added to the parent mode buffer.
+   *             - The parser cursor is moved forward normally.
+   *
+   * @abort  - A hack placeholder until we have ignore.  Aborts the mode (as if it
+   *           never matched) but DOES NOT continue to match subsequent `contains`
+   *           modes.  Abort is bad/suboptimal because it can result in modes
+   *           farther down not getting applied because an earlier rule eats the
+   *           content but then aborts.
+   *
+   *             - The mode does not begin.
+   *             - Content matched by `begin` is added to the mode buffer.
+   *             - The parser cursor is moved forward accordingly.
+   *
+   * @ignore - Ignores the mode (as if it never matched) and continues to match any
+   *           subsequent `contains` modes.  Ignore isn't technically possible with
+   *           the current parser implementation.
+   *
+   *             - The mode does not begin.
+   *             - Content matched by `begin` is ignored.
+   *             - The parser cursor is not moved forward.
+   */
+
+  function compileMode(mode, parent) {
+    if (mode.compiled)
+      return;
+    mode.compiled = true;
+
+    // __onBegin is considered private API, internal use only
+    mode.__onBegin = null;
+
+    mode.keywords = mode.keywords || mode.beginKeywords;
+    if (mode.keywords)
+      mode.keywords = compileKeywords(mode.keywords, language.case_insensitive);
+
+    mode.lexemesRe = langRe(mode.lexemes || /\w+/, true);
+
+    if (parent) {
+      if (mode.beginKeywords) {
+        // for languages with keywords that include non-word characters checking for
+        // a word boundary is not sufficient, so instead we check for a word boundary
+        // or whitespace - this does no harm in any case since our keyword engine
+        // doesn't allow spaces in keywords anyways and we still check for the boundary
+        // first
+        mode.begin = '\\b(' + mode.beginKeywords.split(' ').join('|') + ')(?=\\b|\\s)';
+        mode.__onBegin = skipIfhasPrecedingOrTrailingDot;
+      }
+      if (!mode.begin)
+        mode.begin = /\B|\b/;
+      mode.beginRe = langRe(mode.begin);
+      if (mode.endSameAsBegin)
+        mode.end = mode.begin;
+      if (!mode.end && !mode.endsWithParent)
+        mode.end = /\B|\b/;
+      if (mode.end)
+        mode.endRe = langRe(mode.end);
+      mode.terminator_end = source(mode.end) || '';
+      if (mode.endsWithParent && parent.terminator_end)
+        mode.terminator_end += (mode.end ? '|' : '') + parent.terminator_end;
+    }
+    if (mode.illegal)
+      mode.illegalRe = langRe(mode.illegal);
+    if (mode.relevance == null)
+      mode.relevance = 1;
+    if (!mode.contains) {
+      mode.contains = [];
+    }
+    mode.contains = [].concat(...mode.contains.map(function(c) {
+      return expand_or_clone_mode(c === 'self' ? mode : c);
+    }));
+    mode.contains.forEach(function(c) {compileMode(c, mode);});
+
+    if (mode.starts) {
+      compileMode(mode.starts, parent);
+    }
+
+    mode.matcher = buildModeRegex(mode);
+  }
+
+  // self is not valid at the top-level
+  if (language.contains && language.contains.includes('self')) {
+    throw new Error("ERR: contains `self` is not supported at the top-level of a language.  See documentation.")
+  }
+  compileMode(language);
+}
+
+function dependencyOnParent(mode) {
+  if (!mode) return false;
+
+  return mode.endsWithParent || dependencyOnParent(mode.starts);
+}
+
+function expand_or_clone_mode(mode) {
+  if (mode.variants && !mode.cached_variants) {
+    mode.cached_variants = mode.variants.map(function(variant) {
+      return inherit(mode, {variants: null}, variant);
+    });
+  }
+
+  // EXPAND
+  // if we have variants then essentially "replace" the mode with the variants
+  // this happens in compileMode, where this function is called from
+  if (mode.cached_variants)
+    return mode.cached_variants;
+
+  // CLONE
+  // if we have dependencies on parents then we need a unique
+  // instance of ourselves, so we can be reused with many
+  // different parents without issue
+  if (dependencyOnParent(mode))
+    return inherit(mode, { starts: mode.starts ? inherit(mode.starts) : null });
+
+  if (Object.isFrozen(mode))
+    return inherit(mode);
+
+  // no special dependency issues, just return ourselves
+  return mode;
+}
+
+
+// keywords
+
+function compileKeywords(rawKeywords, case_insensitive) {
+  var compiled_keywords = {};
+
+  if (typeof rawKeywords === 'string') { // string
+    splitAndCompile('keyword', rawKeywords);
+  } else {
+    Object.keys(rawKeywords).forEach(function (className) {
+      splitAndCompile(className, rawKeywords[className]);
+    });
+  }
+return compiled_keywords;
+
+// ---
+
+function splitAndCompile(className, str) {
+  if (case_insensitive) {
+    str = str.toLowerCase();
+  }
+  str.split(' ').forEach(function(keyword) {
+    var pair = keyword.split('|');
+    compiled_keywords[pair[0]] = [className, scoreForKeyword(pair[0], pair[1])];
+  });
+}
+}
+
+function scoreForKeyword(keyword, providedScore) {
+// manual scores always win over common keywords
+// so you can force a score of 1 if you really insist
+if (providedScore)
+  return Number(providedScore);
+
+return commonKeyword(keyword) ? 0 : 1;
+}
+
+function commonKeyword(word) {
+return COMMON_KEYWORDS.includes(word.toLowerCase());
+}
+
+var version = "10.0.2";
+
+/*
+Syntax highlighting with language autodetection.
+https://highlightjs.org/
+*/
+
+const escape$1 = escapeHTML;
+const inherit$1 = inherit;
+
+const { nodeStream: nodeStream$1, mergeStreams: mergeStreams$1 } = utils;
+
+
+const HLJS = function(hljs) {
+
+  // Convenience variables for build-in objects
+  var ArrayProto = [];
+
+  // Global internal variables used within the highlight.js library.
+  var languages = {},
+      aliases   = {},
+      plugins   = [];
+
+  // safe/production mode - swallows more errors, tries to keep running
+  // even if a single syntax or parse hits a fatal error
+  var SAFE_MODE = true;
+
+  // Regular expressions used throughout the highlight.js library.
+  var fixMarkupRe      = /((^(<[^>]+>|\t|)+|(?:\n)))/gm;
+
+  var LANGUAGE_NOT_FOUND = "Could not find the language '{}', did you forget to load/include a language module?";
+
+  // Global options used when within external APIs. This is modified when
+  // calling the `hljs.configure` function.
+  var options = {
+    noHighlightRe: /^(no-?highlight)$/i,
+    languageDetectRe: /\blang(?:uage)?-([\w-]+)\b/i,
+    classPrefix: 'hljs-',
+    tabReplace: null,
+    useBR: false,
+    languages: undefined,
+    // beta configuration options, subject to change, welcome to discuss
+    // https://github.com/highlightjs/highlight.js/issues/1086
+    __emitter: TokenTreeEmitter
+  };
+
+  /* Utility functions */
+
+  function shouldNotHighlight(language) {
+    return options.noHighlightRe.test(language);
+  }
+
+  function blockLanguage(block) {
+    var match;
+    var classes = block.className + ' ';
+
+    classes += block.parentNode ? block.parentNode.className : '';
+
+    // language-* takes precedence over non-prefixed class names.
+    match = options.languageDetectRe.exec(classes);
+    if (match) {
+      var language = getLanguage(match[1]);
+      if (!language) {
+        console.warn(LANGUAGE_NOT_FOUND.replace("{}", match[1]));
+        console.warn("Falling back to no-highlight mode for this block.", block);
+      }
+      return language ? match[1] : 'no-highlight';
+    }
+
+    return classes
+      .split(/\s+/)
+      .find((_class) => shouldNotHighlight(_class) || getLanguage(_class));
+  }
+
+  /**
+   * Core highlighting function.
+   *
+   * @param {string} languageName - the language to use for highlighting
+   * @param {string} code - the code to highlight
+   * @param {boolean} ignore_illegals - whether to ignore illegal matches, default is to bail
+   * @param {array<mode>} continuation - array of continuation modes
+   *
+   * @returns an object that represents the result
+   * @property {string} language - the language name
+   * @property {number} relevance - the relevance score
+   * @property {string} value - the highlighted HTML code
+   * @property {string} code - the original raw code
+   * @property {mode} top - top of the current mode stack
+   * @property {boolean} illegal - indicates whether any illegal matches were found
+  */
+  function highlight(languageName, code, ignore_illegals, continuation) {
+    var context = {
+      code,
+      language: languageName
+    };
+    // the plugin can change the desired language or the code to be highlighted
+    // just be changing the object it was passed
+    fire("before:highlight", context);
+
+    // a before plugin can usurp the result completely by providing it's own
+    // in which case we don't even need to call highlight
+    var result = context.result ?
+      context.result :
+      _highlight(context.language, context.code, ignore_illegals, continuation);
+
+    result.code = context.code;
+    // the plugin can change anything in result to suite it
+    fire("after:highlight", result);
+
+    return result;
+  }
+
+  // private highlight that's used internally and does not fire callbacks
+  function _highlight(languageName, code, ignore_illegals, continuation) {
+    var codeToHighlight = code;
+
+    function endOfMode(mode, lexeme) {
+      if (startsWith(mode.endRe, lexeme)) {
+        while (mode.endsParent && mode.parent) {
+          mode = mode.parent;
+        }
+        return mode;
+      }
+      if (mode.endsWithParent) {
+        return endOfMode(mode.parent, lexeme);
+      }
+    }
+
+    function keywordMatch(mode, match) {
+      var match_str = language.case_insensitive ? match[0].toLowerCase() : match[0];
+      return mode.keywords.hasOwnProperty(match_str) && mode.keywords[match_str];
+    }
+
+    function processKeywords() {
+      var keyword_match, last_index, match, buf;
+
+      if (!top.keywords) {
+        emitter.addText(mode_buffer);
+        return;
+      }
+
+      last_index = 0;
+      top.lexemesRe.lastIndex = 0;
+      match = top.lexemesRe.exec(mode_buffer);
+      buf = "";
+
+      while (match) {
+        buf += mode_buffer.substring(last_index, match.index);
+        keyword_match = keywordMatch(top, match);
+        var kind = null;
+        if (keyword_match) {
+          emitter.addText(buf);
+          buf = "";
+
+          relevance += keyword_match[1];
+          kind = keyword_match[0];
+          emitter.addKeyword(match[0], kind);
+        } else {
+          buf += match[0];
+        }
+        last_index = top.lexemesRe.lastIndex;
+        match = top.lexemesRe.exec(mode_buffer);
+      }
+      buf += mode_buffer.substr(last_index);
+      emitter.addText(buf);
+    }
+
+    function processSubLanguage() {
+      if (mode_buffer === "") return;
+
+      var explicit = typeof top.subLanguage === 'string';
+
+      if (explicit && !languages[top.subLanguage]) {
+        emitter.addText(mode_buffer);
+        return;
+      }
+
+      var result = explicit ?
+                   _highlight(top.subLanguage, mode_buffer, true, continuations[top.subLanguage]) :
+                   highlightAuto(mode_buffer, top.subLanguage.length ? top.subLanguage : undefined);
+
+      // Counting embedded language score towards the host language may be disabled
+      // with zeroing the containing mode relevance. Use case in point is Markdown that
+      // allows XML everywhere and makes every XML snippet to have a much larger Markdown
+      // score.
+      if (top.relevance > 0) {
+        relevance += result.relevance;
+      }
+      if (explicit) {
+        continuations[top.subLanguage] = result.top;
+      }
+      emitter.addSublanguage(result.emitter, result.language);
+    }
+
+    function processBuffer() {
+      if (top.subLanguage != null)
+        processSubLanguage();
+      else
+        processKeywords();
+      mode_buffer = '';
+    }
+
+    function startNewMode(mode) {
+      if (mode.className) {
+        emitter.openNode(mode.className);
+      }
+      top = Object.create(mode, {parent: {value: top}});
+    }
+
+    function doIgnore(lexeme) {
+      if (top.matcher.regexIndex === 0) {
+        // no more regexs to potentially match here, so we move the cursor forward one
+        // space
+        mode_buffer += lexeme[0];
+        return 1;
+      } else {
+        // no need to move the cursor, we still have additional regexes to try and
+        // match at this very spot
+        continueScanAtSamePosition = true;
+        return 0;
+      }
+    }
+
+    function doBeginMatch(match) {
+      var lexeme = match[0];
+      var new_mode = match.rule;
+
+      if (new_mode.__onBegin) {
+        let res = new_mode.__onBegin(match) || {};
+        if (res.ignoreMatch)
+          return doIgnore(lexeme);
+      }
+
+      if (new_mode && new_mode.endSameAsBegin) {
+        new_mode.endRe = escape( lexeme );
+      }
+
+      if (new_mode.skip) {
+        mode_buffer += lexeme;
+      } else {
+        if (new_mode.excludeBegin) {
+          mode_buffer += lexeme;
+        }
+        processBuffer();
+        if (!new_mode.returnBegin && !new_mode.excludeBegin) {
+          mode_buffer = lexeme;
+        }
+      }
+      startNewMode(new_mode);
+      return new_mode.returnBegin ? 0 : lexeme.length;
+    }
+
+    function doEndMatch(match) {
+      var lexeme = match[0];
+      var matchPlusRemainder = codeToHighlight.substr(match.index);
+      var end_mode = endOfMode(top, matchPlusRemainder);
+      if (!end_mode) { return; }
+
+      var origin = top;
+      if (origin.skip) {
+        mode_buffer += lexeme;
+      } else {
+        if (!(origin.returnEnd || origin.excludeEnd)) {
+          mode_buffer += lexeme;
+        }
+        processBuffer();
+        if (origin.excludeEnd) {
+          mode_buffer = lexeme;
+        }
+      }
+      do {
+        if (top.className) {
+          emitter.closeNode();
+        }
+        if (!top.skip && !top.subLanguage) {
+          relevance += top.relevance;
+        }
+        top = top.parent;
+      } while (top !== end_mode.parent);
+      if (end_mode.starts) {
+        if (end_mode.endSameAsBegin) {
+          end_mode.starts.endRe = end_mode.endRe;
+        }
+        startNewMode(end_mode.starts);
+      }
+      return origin.returnEnd ? 0 : lexeme.length;
+    }
+
+    function processContinuations() {
+      var list = [];
+      for(var current = top; current !== language; current = current.parent) {
+        if (current.className) {
+          list.unshift(current.className);
+        }
+      }
+      list.forEach(item => emitter.openNode(item));
+    }
+
+    var lastMatch = {};
+    function processLexeme(text_before_match, match) {
+
+      var err;
+      var lexeme = match && match[0];
+
+      // add non-matched text to the current mode buffer
+      mode_buffer += text_before_match;
+
+      if (lexeme == null) {
+        processBuffer();
+        return 0;
+      }
+
+
+
+      // we've found a 0 width match and we're stuck, so we need to advance
+      // this happens when we have badly behaved rules that have optional matchers to the degree that
+      // sometimes they can end up matching nothing at all
+      // Ref: https://github.com/highlightjs/highlight.js/issues/2140
+      if (lastMatch.type=="begin" && match.type=="end" && lastMatch.index == match.index && lexeme === "") {
+        // spit the "skipped" character that our regex choked on back into the output sequence
+        mode_buffer += codeToHighlight.slice(match.index, match.index + 1);
+        if (!SAFE_MODE) {
+          err = new Error('0 width match regex');
+          err.languageName = languageName;
+          err.badRule = lastMatch.rule;
+          throw(err);
+        }
+        return 1;
+      }
+      lastMatch = match;
+
+      if (match.type==="begin") {
+        return doBeginMatch(match);
+      } else if (match.type==="illegal" && !ignore_illegals) {
+        // illegal match, we do not continue processing
+        err = new Error('Illegal lexeme "' + lexeme + '" for mode "' + (top.className || '<unnamed>') + '"');
+        err.mode = top;
+        throw err;
+      } else if (match.type==="end") {
+        var processed = doEndMatch(match);
+        if (processed != undefined)
+          return processed;
+      }
+
+      // edge case for when illegal matches $ (end of line) which is technically
+      // a 0 width match but not a begin/end match so it's not caught by the
+      // first handler (when ignoreIllegals is true)
+      if (match.type === "illegal" && lexeme === "") {
+        // advance so we aren't stuck in an infinite loop
+        return 1;
+      }
+
+      // infinite loops are BAD, this is a last ditch catch all. if we have a
+      // decent number of iterations yet our index (cursor position in our
+      // parsing) still 3x behind our index then something is very wrong
+      // so we bail
+      if (iterations > 100000 && iterations > match.index * 3) {
+        const err = new Error('potential infinite loop, way more iterations than matches');
+        throw err;
+      }
+
+      /*
+      Why might be find ourselves here?  Only one occasion now.  An end match that was
+      triggered but could not be completed.  When might this happen?  When an `endSameasBegin`
+      rule sets the end rule to a specific match.  Since the overall mode termination rule that's
+      being used to scan the text isn't recompiled that means that any match that LOOKS like
+      the end (but is not, because it is not an exact match to the beginning) will
+      end up here.  A definite end match, but when `doEndMatch` tries to "reapply"
+      the end rule and fails to match, we wind up here, and just silently ignore the end.
+
+      This causes no real harm other than stopping a few times too many.
+      */
+
+      mode_buffer += lexeme;
+      return lexeme.length;
+    }
+
+    var language = getLanguage(languageName);
+    if (!language) {
+      console.error(LANGUAGE_NOT_FOUND.replace("{}", languageName));
+      throw new Error('Unknown language: "' + languageName + '"');
+    }
+
+    compileLanguage(language);
+    var top = continuation || language;
+    var continuations = {}; // keep continuations for sub-languages
+    var result;
+    var emitter = new options.__emitter(options);
+    processContinuations();
+    var mode_buffer = '';
+    var relevance = 0;
+    var match;
+    var processedCount;
+    var index = 0;
+    var iterations = 0;
+    var continueScanAtSamePosition = false;
+
+    try {
+      top.matcher.considerAll();
+
+      for (;;) {
+        iterations++;
+        if (continueScanAtSamePosition) {
+          continueScanAtSamePosition = false;
+          // only regexes not matched previously will now be
+          // considered for a potential match
+        } else {
+          top.matcher.lastIndex = index;
+          top.matcher.considerAll();
+        }
+        match = top.matcher.exec(codeToHighlight);
+        // console.log("match", match[0], match.rule && match.rule.begin)
+        if (!match)
+          break;
+        let beforeMatch = codeToHighlight.substring(index, match.index);
+        processedCount = processLexeme(beforeMatch, match);
+        index = match.index + processedCount;
+      }
+      processLexeme(codeToHighlight.substr(index));
+      emitter.closeAllNodes();
+      emitter.finalize();
+      result = emitter.toHTML();
+
+      return {
+        relevance: relevance,
+        value: result,
+        language: languageName,
+        illegal: false,
+        emitter: emitter,
+        top: top
+      };
+    } catch (err) {
+      if (err.message && err.message.includes('Illegal')) {
+        return {
+          illegal: true,
+          illegalBy: {
+            msg: err.message,
+            context: codeToHighlight.slice(index-100,index+100),
+            mode: err.mode
+          },
+          sofar: result,
+          relevance: 0,
+          value: escape$1(codeToHighlight),
+          emitter: emitter,
+        };
+      } else if (SAFE_MODE) {
+        return {
+          relevance: 0,
+          value: escape$1(codeToHighlight),
+          emitter: emitter,
+          language: languageName,
+          top: top,
+          errorRaised: err
+        };
+      } else {
+        throw err;
+      }
+    }
+  }
+
+  // returns a valid highlight result, without actually
+  // doing any actual work, auto highlight starts with
+  // this and it's possible for small snippets that
+  // auto-detection may not find a better match
+  function justTextHighlightResult(code) {
+    const result = {
+      relevance: 0,
+      emitter: new options.__emitter(options),
+      value: escape$1(code),
+      illegal: false,
+      top: PLAINTEXT_LANGUAGE
+    };
+    result.emitter.addText(code);
+    return result;
+  }
+
+  /*
+  Highlighting with language detection. Accepts a string with the code to
+  highlight. Returns an object with the following properties:
+
+  - language (detected language)
+  - relevance (int)
+  - value (an HTML string with highlighting markup)
+  - second_best (object with the same structure for second-best heuristically
+    detected language, may be absent)
+
+  */
+  function highlightAuto(code, languageSubset) {
+    languageSubset = languageSubset || options.languages || Object.keys(languages);
+    var result = justTextHighlightResult(code);
+    var second_best = result;
+    languageSubset.filter(getLanguage).filter(autoDetection).forEach(function(name) {
+      var current = _highlight(name, code, false);
+      current.language = name;
+      if (current.relevance > second_best.relevance) {
+        second_best = current;
+      }
+      if (current.relevance > result.relevance) {
+        second_best = result;
+        result = current;
+      }
+    });
+    if (second_best.language) {
+      result.second_best = second_best;
+    }
+    return result;
+  }
+
+  /*
+  Post-processing of the highlighted markup:
+
+  - replace TABs with something more useful
+  - replace real line-breaks with '<br>' for non-pre containers
+
+  */
+  function fixMarkup(value) {
+    if (!(options.tabReplace || options.useBR)) {
+      return value;
+    }
+
+    return value.replace(fixMarkupRe, function(match, p1) {
+        if (options.useBR && match === '\n') {
+          return '<br>';
+        } else if (options.tabReplace) {
+          return p1.replace(/\t/g, options.tabReplace);
+        }
+        return '';
+    });
+  }
+
+  function buildClassName(prevClassName, currentLang, resultLang) {
+    var language = currentLang ? aliases[currentLang] : resultLang,
+        result   = [prevClassName.trim()];
+
+    if (!prevClassName.match(/\bhljs\b/)) {
+      result.push('hljs');
+    }
+
+    if (!prevClassName.includes(language)) {
+      result.push(language);
+    }
+
+    return result.join(' ').trim();
+  }
+
+  /*
+  Applies highlighting to a DOM node containing code. Accepts a DOM node and
+  two optional parameters for fixMarkup.
+  */
+  function highlightBlock(block) {
+    var node, originalStream, result, resultNode, text;
+    var language = blockLanguage(block);
+
+    if (shouldNotHighlight(language))
+        return;
+
+    fire("before:highlightBlock",
+      { block: block, language: language});
+
+    if (options.useBR) {
+      node = document.createElement('div');
+      node.innerHTML = block.innerHTML.replace(/\n/g, '').replace(/<br[ \/]*>/g, '\n');
+    } else {
+      node = block;
+    }
+    text = node.textContent;
+    result = language ? highlight(language, text, true) : highlightAuto(text);
+
+    originalStream = nodeStream$1(node);
+    if (originalStream.length) {
+      resultNode = document.createElement('div');
+      resultNode.innerHTML = result.value;
+      result.value = mergeStreams$1(originalStream, nodeStream$1(resultNode), text);
+    }
+    result.value = fixMarkup(result.value);
+
+    fire("after:highlightBlock", { block: block, result: result});
+
+    block.innerHTML = result.value;
+    block.className = buildClassName(block.className, language, result.language);
+    block.result = {
+      language: result.language,
+      re: result.relevance
+    };
+    if (result.second_best) {
+      block.second_best = {
+        language: result.second_best.language,
+        re: result.second_best.relevance
+      };
+    }
+  }
+
+  /*
+  Updates highlight.js global options with values passed in the form of an object.
+  */
+  function configure(user_options) {
+    options = inherit$1(options, user_options);
+  }
+
+  /*
+  Applies highlighting to all <pre><code>..</code></pre> blocks on a page.
+  */
+  function initHighlighting() {
+    if (initHighlighting.called)
+      return;
+    initHighlighting.called = true;
+
+    var blocks = document.querySelectorAll('pre code');
+    ArrayProto.forEach.call(blocks, highlightBlock);
+  }
+
+  /*
+  Attaches highlighting to the page load event.
+  */
+  function initHighlightingOnLoad() {
+    window.addEventListener('DOMContentLoaded', initHighlighting, false);
+  }
+
+  const PLAINTEXT_LANGUAGE = { disableAutodetect: true, name: 'Plain text' };
+
+  function registerLanguage(name, language) {
+    var lang;
+    try { lang = language(hljs); }
+    catch (error) {
+      console.error("Language definition for '{}' could not be registered.".replace("{}", name));
+      // hard or soft error
+      if (!SAFE_MODE) { throw error; } else { console.error(error); }
+      // languages that have serious errors are replaced with essentially a
+      // "plaintext" stand-in so that the code blocks will still get normal
+      // css classes applied to them - and one bad language won't break the
+      // entire highlighter
+      lang = PLAINTEXT_LANGUAGE;
+    }
+    // give it a temporary name if it doesn't have one in the meta-data
+    if (!lang.name)
+      lang.name = name;
+    languages[name] = lang;
+    lang.rawDefinition = language.bind(null,hljs);
+
+    if (lang.aliases) {
+      lang.aliases.forEach(function(alias) {aliases[alias] = name;});
+    }
+  }
+
+  function listLanguages() {
+    return Object.keys(languages);
+  }
+
+  /*
+    intended usage: When one language truly requires another
+
+    Unlike `getLanguage`, this will throw when the requested language
+    is not available.
+  */
+  function requireLanguage(name) {
+    var lang = getLanguage(name);
+    if (lang) { return lang; }
+
+    var err = new Error('The \'{}\' language is required, but not loaded.'.replace('{}',name));
+    throw err;
+  }
+
+  function getLanguage(name) {
+    name = (name || '').toLowerCase();
+    return languages[name] || languages[aliases[name]];
+  }
+
+  function autoDetection(name) {
+    var lang = getLanguage(name);
+    return lang && !lang.disableAutodetect;
+  }
+
+  function addPlugin(plugin, options) {
+    plugins.push(plugin);
+  }
+
+  function fire(event, args) {
+    var cb = event;
+    plugins.forEach(function (plugin) {
+      if (plugin[cb]) {
+        plugin[cb](args);
+      }
+    });
+  }
+
+  /* Interface definition */
+
+  Object.assign(hljs,{
+    highlight,
+    highlightAuto,
+    fixMarkup,
+    highlightBlock,
+    configure,
+    initHighlighting,
+    initHighlightingOnLoad,
+    registerLanguage,
+    listLanguages,
+    getLanguage,
+    requireLanguage,
+    autoDetection,
+    inherit: inherit$1,
+    addPlugin
+  });
+
+  hljs.debugMode = function() { SAFE_MODE = false; };
+  hljs.safeMode = function() { SAFE_MODE = true; };
+  hljs.versionString = version;
+
+  for (const key in MODES) {
+    if (typeof MODES[key] === "object")
+      deepFreeze(MODES[key]);
+  }
+
+  // merge all the modes/regexs into our main object
+  Object.assign(hljs, MODES);
+
+  return hljs;
+};
+
+// export an "instance" of the highlighter
+var highlight = HLJS({});
+
+module.exports = highlight;
+
+
+/***/ }),
+
+/***/ "./node_modules/highlight.js/lib/languages/javascript.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/highlight.js/lib/languages/javascript.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/*
+Language: JavaScript
+Description: JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions.
+Category: common, scripting
+Website: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+*/
+
+function javascript(hljs) {
+  var FRAGMENT = {
+    begin: '<>',
+    end: '</>'
+  };
+  var XML_TAG = {
+    begin: /<[A-Za-z0-9\\._:-]+/,
+    end: /\/[A-Za-z0-9\\._:-]+>|\/>/
+  };
+  var IDENT_RE = '[A-Za-z$_][0-9A-Za-z$_]*';
+  var KEYWORDS = {
+    keyword:
+      'in of if for while finally var new function do return void else break catch ' +
+      'instanceof with throw case default try this switch continue typeof delete ' +
+      'let yield const export super debugger as async await static ' +
+      // ECMAScript 6 modules import
+      'import from as'
+    ,
+    literal:
+      'true false null undefined NaN Infinity',
+    built_in:
+      'eval isFinite isNaN parseFloat parseInt decodeURI decodeURIComponent ' +
+      'encodeURI encodeURIComponent escape unescape Object Function Boolean Error ' +
+      'EvalError InternalError RangeError ReferenceError StopIteration SyntaxError ' +
+      'TypeError URIError Number Math Date String RegExp Array Float32Array ' +
+      'Float64Array Int16Array Int32Array Int8Array Uint16Array Uint32Array ' +
+      'Uint8Array Uint8ClampedArray ArrayBuffer DataView JSON Intl arguments require ' +
+      'module console window document Symbol Set Map WeakSet WeakMap Proxy Reflect ' +
+      'Promise'
+  };
+  var NUMBER = {
+    className: 'number',
+    variants: [
+      { begin: '\\b(0[bB][01]+)n?' },
+      { begin: '\\b(0[oO][0-7]+)n?' },
+      { begin: hljs.C_NUMBER_RE + 'n?' }
+    ],
+    relevance: 0
+  };
+  var SUBST = {
+    className: 'subst',
+    begin: '\\$\\{', end: '\\}',
+    keywords: KEYWORDS,
+    contains: []  // defined later
+  };
+  var HTML_TEMPLATE = {
+    begin: 'html`', end: '',
+    starts: {
+      end: '`', returnEnd: false,
+      contains: [
+        hljs.BACKSLASH_ESCAPE,
+        SUBST
+      ],
+      subLanguage: 'xml',
+    }
+  };
+  var CSS_TEMPLATE = {
+    begin: 'css`', end: '',
+    starts: {
+      end: '`', returnEnd: false,
+      contains: [
+        hljs.BACKSLASH_ESCAPE,
+        SUBST
+      ],
+      subLanguage: 'css',
+    }
+  };
+  var TEMPLATE_STRING = {
+    className: 'string',
+    begin: '`', end: '`',
+    contains: [
+      hljs.BACKSLASH_ESCAPE,
+      SUBST
+    ]
+  };
+  SUBST.contains = [
+    hljs.APOS_STRING_MODE,
+    hljs.QUOTE_STRING_MODE,
+    HTML_TEMPLATE,
+    CSS_TEMPLATE,
+    TEMPLATE_STRING,
+    NUMBER,
+    hljs.REGEXP_MODE
+  ];
+  var PARAMS_CONTAINS = SUBST.contains.concat([
+    hljs.C_BLOCK_COMMENT_MODE,
+    hljs.C_LINE_COMMENT_MODE
+  ]);
+  var PARAMS = {
+    className: 'params',
+    begin: /\(/, end: /\)/,
+    excludeBegin: true,
+    excludeEnd: true,
+    contains: PARAMS_CONTAINS
+  };
+
+  return {
+    name: 'JavaScript',
+    aliases: ['js', 'jsx', 'mjs', 'cjs'],
+    keywords: KEYWORDS,
+    contains: [
+      {
+        className: 'meta',
+        relevance: 10,
+        begin: /^\s*['"]use (strict|asm)['"]/
+      },
+      {
+        className: 'meta',
+        begin: /^#!/, end: /$/
+      },
+      hljs.APOS_STRING_MODE,
+      hljs.QUOTE_STRING_MODE,
+      HTML_TEMPLATE,
+      CSS_TEMPLATE,
+      TEMPLATE_STRING,
+      hljs.C_LINE_COMMENT_MODE,
+      hljs.COMMENT(
+        '/\\*\\*',
+        '\\*/',
+        {
+          relevance : 0,
+          contains : [
+            {
+              className : 'doctag',
+              begin : '@[A-Za-z]+',
+              contains : [
+                {
+                  className: 'type',
+                  begin: '\\{',
+                  end: '\\}',
+                  relevance: 0
+                },
+                {
+                  className: 'variable',
+                  begin: IDENT_RE + '(?=\\s*(-)|$)',
+                  endsParent: true,
+                  relevance: 0
+                },
+                // eat spaces (not newlines) so we can find
+                // types or variables
+                {
+                  begin: /(?=[^\n])\s/,
+                  relevance: 0
+                },
+              ]
+            }
+          ]
+        }
+      ),
+      hljs.C_BLOCK_COMMENT_MODE,
+      NUMBER,
+      { // object attr container
+        begin: /[{,\n]\s*/, relevance: 0,
+        contains: [
+          {
+            begin: IDENT_RE + '\\s*:', returnBegin: true,
+            relevance: 0,
+            contains: [{className: 'attr', begin: IDENT_RE, relevance: 0}]
+          }
+        ]
+      },
+      { // "value" container
+        begin: '(' + hljs.RE_STARTERS_RE + '|\\b(case|return|throw)\\b)\\s*',
+        keywords: 'return throw case',
+        contains: [
+          hljs.C_LINE_COMMENT_MODE,
+          hljs.C_BLOCK_COMMENT_MODE,
+          hljs.REGEXP_MODE,
+          {
+            className: 'function',
+            begin: '(\\(.*?\\)|' + IDENT_RE + ')\\s*=>', returnBegin: true,
+            end: '\\s*=>',
+            contains: [
+              {
+                className: 'params',
+                variants: [
+                  {
+                    begin: IDENT_RE
+                  },
+                  {
+                    begin: /\(\s*\)/,
+                  },
+                  {
+                    begin: /\(/, end: /\)/,
+                    excludeBegin: true, excludeEnd: true,
+                    keywords: KEYWORDS,
+                    contains: PARAMS_CONTAINS
+                  }
+                ]
+              }
+            ]
+          },
+          { // could be a comma delimited list of params to a function call
+            begin: /,/, relevance: 0,
+          },
+          {
+            className: '',
+            begin: /\s/,
+            end: /\s*/,
+            skip: true,
+          },
+          { // JSX
+            variants: [
+              { begin: FRAGMENT.begin, end: FRAGMENT.end },
+              { begin: XML_TAG.begin, end: XML_TAG.end }
+            ],
+            subLanguage: 'xml',
+            contains: [
+              {
+                begin: XML_TAG.begin, end: XML_TAG.end, skip: true,
+                contains: ['self']
+              }
+            ]
+          },
+        ],
+        relevance: 0
+      },
+      {
+        className: 'function',
+        beginKeywords: 'function', end: /\{/, excludeEnd: true,
+        contains: [
+          hljs.inherit(hljs.TITLE_MODE, {begin: IDENT_RE}),
+          PARAMS
+        ],
+        illegal: /\[|%/
+      },
+      {
+        begin: /\$[(.]/ // relevance booster for a pattern common to JS libs: `$(something)` and `$.something`
+      },
+
+      hljs.METHOD_GUARD,
+      { // ES6 class
+        className: 'class',
+        beginKeywords: 'class', end: /[{;=]/, excludeEnd: true,
+        illegal: /[:"\[\]]/,
+        contains: [
+          {beginKeywords: 'extends'},
+          hljs.UNDERSCORE_TITLE_MODE
+        ]
+      },
+      {
+        beginKeywords: 'constructor', end: /\{/, excludeEnd: true
+      },
+      {
+        begin:'(get|set)\\s*(?=' + IDENT_RE+ '\\()',
+        end: /{/,
+        keywords: "get set",
+        contains: [
+          hljs.inherit(hljs.TITLE_MODE, {begin: IDENT_RE}),
+          { begin: /\(\)/ }, // eat to avoid empty params
+          PARAMS
+        ]
+
+      }
+    ],
+    illegal: /#(?!!)/
+  };
+}
+
+module.exports = javascript;
+
 
 /***/ }),
 
@@ -54911,6 +56882,36 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/MediaComponent.vue?vue&type=style&index=0&id=63cb17b8&scoped=true&lang=css&":
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/MediaComponent.vue?vue&type=style&index=0&id=63cb17b8&scoped=true&lang=css& ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./MediaComponent.vue?vue&type=style&index=0&id=63cb17b8&scoped=true&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/MediaComponent.vue?vue&type=style&index=0&id=63cb17b8&scoped=true&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/UploadComponent.vue?vue&type=style&index=0&id=602a0e61&scoped=true&lang=css&":
 /*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/UploadComponent.vue?vue&type=style&index=0&id=602a0e61&scoped=true&lang=css& ***!
@@ -58634,6 +60635,134 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
                          (this && this.clearImmediate);
 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/MediaComponent.vue?vue&type=template&id=63cb17b8&scoped=true&":
+/*!*****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/MediaComponent.vue?vue&type=template&id=63cb17b8&scoped=true& ***!
+  \*****************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "w-full overflow-hidden bg-white mx-1 my-2 rounded border" },
+    [
+      _c(
+        "div",
+        { staticClass: "w-full flex flex-col lg:flex-row rounded-lg" },
+        [
+          _c("img", {
+            staticClass: "w-64 h-48",
+            attrs: { src: _vm.item.public_url, alt: _vm.item.name }
+          }),
+          _vm._v(" "),
+          _c("div", { staticClass: "w-full", attrs: { id: "map" } })
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "w-full flex flex-col lg:flex-row justify-start" },
+        [
+          _c(
+            "ul",
+            {
+              staticClass:
+                "w-full lg:w-1/3 tracking-wider text-sm text-gray-600 flex flex-col items-center justify-start p-4 border-t"
+            },
+            [
+              _c("li", { staticClass: "w-full py-1" }, [
+                _vm._v("Title: "),
+                _c("span", { staticClass: "text-gray-700" }, [
+                  _vm._v(_vm._s(_vm.item.name))
+                ])
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "w-full py-1" }, [
+                _vm._v("Type: "),
+                _c("span", { staticClass: "text-gray-700" }, [
+                  _vm._v(_vm._s(_vm.item.mime_type))
+                ])
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "w-full py-1" }, [
+                _vm._v("Size: "),
+                _c("span", { staticClass: "text-gray-700" }, [
+                  _vm._v(_vm._s(_vm.item.size) + " KB")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "w-full py-1" }, [
+                _vm._v("Public URL: "),
+                _c(
+                  "a",
+                  {
+                    staticClass: "hover:underline text-blue-500",
+                    attrs: { href: _vm.item.public_url, target: "_blank" }
+                  },
+                  [_vm._v("Click Here")]
+                )
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "w-full py-1" }, [
+                _vm._v("Created At: "),
+                _c("span", { staticClass: "text-gray-700" }, [
+                  _vm._v(_vm._s(_vm.item.created_at))
+                ])
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "w-full h-full lg:w-2/3 flex flex-col items-center justify-start p-4 border-t"
+            },
+            [
+              _c(
+                "h3",
+                {
+                  staticClass:
+                    "w-full tracking-wider font-medium text-lg text-gray-700 mb-1"
+                },
+                [_vm._v("Raw data")]
+              ),
+              _vm._v(" "),
+              _c(
+                "pre",
+                { staticClass: "flex w-full h-48 overflow-auto rounded" },
+                [
+                  _vm._v("        "),
+                  _c("code", { staticClass: "javascript" }, [
+                    _vm._v(
+                      "\n          " + _vm._s(_vm.item.raw_data) + "\n        "
+                    )
+                  ]),
+                  _vm._v("\n      ")
+                ]
+              )
+            ]
+          )
+        ]
+      )
+    ]
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
 
 /***/ }),
 
@@ -70957,8 +73086,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_UploadComponent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/UploadComponent */ "./resources/js/components/UploadComponent.vue");
-/* harmony import */ var stimulus__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! stimulus */ "./node_modules/stimulus/index.js");
-/* harmony import */ var stimulus_webpack_helpers__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! stimulus/webpack-helpers */ "./node_modules/stimulus/webpack-helpers.js");
+/* harmony import */ var _components_MediaComponent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/MediaComponent */ "./resources/js/components/MediaComponent.vue");
+/* harmony import */ var stimulus__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! stimulus */ "./node_modules/stimulus/index.js");
+/* harmony import */ var stimulus_webpack_helpers__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! stimulus/webpack-helpers */ "./node_modules/stimulus/webpack-helpers.js");
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -70969,14 +73099,16 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 window.Vue = vue__WEBPACK_IMPORTED_MODULE_0___default.a;
 
+
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('upload-component', _components_UploadComponent__WEBPACK_IMPORTED_MODULE_1__["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('media-component', _components_MediaComponent__WEBPACK_IMPORTED_MODULE_2__["default"]);
 
 
-var application = stimulus__WEBPACK_IMPORTED_MODULE_2__["Application"].start();
+var application = stimulus__WEBPACK_IMPORTED_MODULE_3__["Application"].start();
 
 var context = __webpack_require__("./resources/js/controllers sync recursive \\.js$");
 
-application.load(Object(stimulus_webpack_helpers__WEBPACK_IMPORTED_MODULE_3__["definitionsFromContext"])(context));
+application.load(Object(stimulus_webpack_helpers__WEBPACK_IMPORTED_MODULE_4__["definitionsFromContext"])(context));
 
 /***/ }),
 
@@ -71022,6 +73154,93 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 //     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
 //     forceTLS: true
 // });
+
+/***/ }),
+
+/***/ "./resources/js/components/MediaComponent.vue":
+/*!****************************************************!*\
+  !*** ./resources/js/components/MediaComponent.vue ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _MediaComponent_vue_vue_type_template_id_63cb17b8_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./MediaComponent.vue?vue&type=template&id=63cb17b8&scoped=true& */ "./resources/js/components/MediaComponent.vue?vue&type=template&id=63cb17b8&scoped=true&");
+/* harmony import */ var _MediaComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./MediaComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/MediaComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _MediaComponent_vue_vue_type_style_index_0_id_63cb17b8_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./MediaComponent.vue?vue&type=style&index=0&id=63cb17b8&scoped=true&lang=css& */ "./resources/js/components/MediaComponent.vue?vue&type=style&index=0&id=63cb17b8&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _MediaComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _MediaComponent_vue_vue_type_template_id_63cb17b8_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _MediaComponent_vue_vue_type_template_id_63cb17b8_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "63cb17b8",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/MediaComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/MediaComponent.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/components/MediaComponent.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MediaComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./MediaComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/MediaComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MediaComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/MediaComponent.vue?vue&type=style&index=0&id=63cb17b8&scoped=true&lang=css&":
+/*!*************************************************************************************************************!*\
+  !*** ./resources/js/components/MediaComponent.vue?vue&type=style&index=0&id=63cb17b8&scoped=true&lang=css& ***!
+  \*************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_MediaComponent_vue_vue_type_style_index_0_id_63cb17b8_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./MediaComponent.vue?vue&type=style&index=0&id=63cb17b8&scoped=true&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/MediaComponent.vue?vue&type=style&index=0&id=63cb17b8&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_MediaComponent_vue_vue_type_style_index_0_id_63cb17b8_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_MediaComponent_vue_vue_type_style_index_0_id_63cb17b8_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_MediaComponent_vue_vue_type_style_index_0_id_63cb17b8_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_MediaComponent_vue_vue_type_style_index_0_id_63cb17b8_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_MediaComponent_vue_vue_type_style_index_0_id_63cb17b8_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/js/components/MediaComponent.vue?vue&type=template&id=63cb17b8&scoped=true&":
+/*!***********************************************************************************************!*\
+  !*** ./resources/js/components/MediaComponent.vue?vue&type=template&id=63cb17b8&scoped=true& ***!
+  \***********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_MediaComponent_vue_vue_type_template_id_63cb17b8_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./MediaComponent.vue?vue&type=template&id=63cb17b8&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/MediaComponent.vue?vue&type=template&id=63cb17b8&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_MediaComponent_vue_vue_type_template_id_63cb17b8_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_MediaComponent_vue_vue_type_template_id_63cb17b8_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
 
 /***/ }),
 
