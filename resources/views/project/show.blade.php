@@ -17,7 +17,15 @@
   </h3>
   <div class="w-full flex flex-col items-center justify-start mt-4">
     <upload-component class="mr-auto" endpoint="{{ route('media.upload', $project) }}" csrf="{{ csrf_token() }}" target="#media"></upload-component>
-    <div id="media" class="flex flex-col lg:flex-row items-center justify-start">
+    <div id="media" class="w-full flex flex-col items-center justify-start mt-4">
+      @forelse ($media as $item)
+        <media-component data='@json($item)'></media-component>
+      @empty
+        <div class="block w-full h-24 flex flex-col items-center justify-center p-6">
+          <p class="table-cell px-4 py-2 font-medium text-blue-800">No matches</p>
+          <p class="table-cell px-4 py-2 text-sm text-blue-700">We can't find a match.</p>
+        </div>
+      @endforelse
     </div>
   </div>
 </div>
