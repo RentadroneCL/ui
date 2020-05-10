@@ -12,9 +12,11 @@ window.Vue = Vue;
 
 import UploadComponent from './components/UploadComponent';
 import MediaComponent from './components/MediaComponent';
+import MapComponent from './components/MapComponent';
 
 Vue.component('upload-component', UploadComponent);
 Vue.component('media-component', MediaComponent);
+Vue.component('map-component', MapComponent);
 
 import { Application } from 'stimulus';
 import { definitionsFromContext } from 'stimulus/webpack-helpers';
