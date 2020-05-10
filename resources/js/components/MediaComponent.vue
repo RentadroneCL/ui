@@ -1,8 +1,10 @@
 <template>
   <div class="w-full overflow-hidden bg-white mx-1 my-2 rounded border">
     <div class="w-full flex flex-col lg:flex-row rounded-lg">
-      <img class="w-64 h-48" :src="item.public_url" :alt="item.name">
-      <div class="w-full" id="map"></div>
+      <img class="w-64 h-64" :src="item.public_url" :alt="item.name">
+      <div class="w-full">
+        <map-component :data="JSON.stringify([item])"></map-component>
+      </div>
     </div>
     <div class="w-full flex flex-col lg:flex-row justify-start">
       <ul class="w-full lg:w-1/3 tracking-wider text-sm text-gray-600 flex flex-col items-center justify-start p-4 border-t">
@@ -25,6 +27,7 @@
 </template>
 
 <script>
+import MapComponent from './MapComponent'
 import hljs from 'highlight.js/lib/core';
 import javascript from 'highlight.js/lib/languages/javascript';
 
@@ -38,6 +41,9 @@ export default {
     return {
       item: JSON.parse(this.data)
     }
+  },
+  components: {
+    MapComponent
   }
 }
 </script>
