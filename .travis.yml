@@ -1,0 +1,29 @@
+dist: bionic
+
+language: php
+
+php:
+  - '7.4'
+
+cache:
+  directories:
+    - $HOME/.composer/cache
+
+services:
+  - mysql
+
+before_install:
+  - travis_retry composer self-update
+  - mysql -e 'CREATE DATABASE testing;'
+
+before_script:
+  - cp .env.travis .env
+  - composer install --no-interaction
+  - php artisan migrate --no-interaction -vvv
+  - yarn global add jshint
+  - yarn install
+
+script:
+  - vendor/bin/phpunit
+  - yarn run production
+  - jshint resources/js/*
