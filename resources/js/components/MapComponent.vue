@@ -17,7 +17,7 @@ export default {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
 
-    this.addMarker(this.getGeospatialData()[0], map);
+    this.addMarker(this.getGeospatialData(), map);
   },
   props: ['data'],
   data() {
@@ -33,7 +33,7 @@ export default {
       return this.collect.map(item => item.data.gps.split(',').map(item => Number(item)));
     },
     addMarker(latlng = [], map = undefined) {
-      return L.marker(latlng).addTo(map);
+      return latlng.map(item => L.marker(item).addTo(map));
     }
   }
 }
