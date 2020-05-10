@@ -10,7 +10,7 @@ export default {
   mounted() {
     const map = this.initializeMap({
       center: this.getGeospatialData()[0],
-      zoom: 13
+      zoom: 16
     });
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
