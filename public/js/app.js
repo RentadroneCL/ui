@@ -13195,7 +13195,7 @@ __webpack_require__.r(__webpack_exports__);
     leaflet__WEBPACK_IMPORTED_MODULE_0___default.a.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
-    this.addMarker(this.getGeospatialData()[0], map);
+    this.addMarker(this.getGeospatialData(), map);
   },
   props: ['data'],
   data: function data() {
@@ -13218,7 +13218,9 @@ __webpack_require__.r(__webpack_exports__);
     addMarker: function addMarker() {
       var latlng = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
       var map = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : undefined;
-      return leaflet__WEBPACK_IMPORTED_MODULE_0___default.a.marker(latlng).addTo(map);
+      return latlng.map(function (item) {
+        return leaflet__WEBPACK_IMPORTED_MODULE_0___default.a.marker(item).addTo(map);
+      });
     }
   }
 });
