@@ -13190,7 +13190,7 @@ __webpack_require__.r(__webpack_exports__);
   mounted: function mounted() {
     var map = this.initializeMap({
       center: this.getGeospatialData()[0],
-      zoom: 13
+      zoom: 16
     });
     leaflet__WEBPACK_IMPORTED_MODULE_0___default.a.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -13236,10 +13236,11 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var highlight_js_lib_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! highlight.js/lib/core */ "./node_modules/highlight.js/lib/core.js");
-/* harmony import */ var highlight_js_lib_core__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(highlight_js_lib_core__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var highlight_js_lib_languages_javascript__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! highlight.js/lib/languages/javascript */ "./node_modules/highlight.js/lib/languages/javascript.js");
-/* harmony import */ var highlight_js_lib_languages_javascript__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(highlight_js_lib_languages_javascript__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _MapComponent__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./MapComponent */ "./resources/js/components/MapComponent.vue");
+/* harmony import */ var highlight_js_lib_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! highlight.js/lib/core */ "./node_modules/highlight.js/lib/core.js");
+/* harmony import */ var highlight_js_lib_core__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(highlight_js_lib_core__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var highlight_js_lib_languages_javascript__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! highlight.js/lib/languages/javascript */ "./node_modules/highlight.js/lib/languages/javascript.js");
+/* harmony import */ var highlight_js_lib_languages_javascript__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(highlight_js_lib_languages_javascript__WEBPACK_IMPORTED_MODULE_2__);
 //
 //
 //
@@ -13266,18 +13267,24 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
-    highlight_js_lib_core__WEBPACK_IMPORTED_MODULE_0___default.a.registerLanguage('javascript', highlight_js_lib_languages_javascript__WEBPACK_IMPORTED_MODULE_1___default.a);
-    highlight_js_lib_core__WEBPACK_IMPORTED_MODULE_0___default.a.initHighlightingOnLoad();
+    highlight_js_lib_core__WEBPACK_IMPORTED_MODULE_1___default.a.registerLanguage('javascript', highlight_js_lib_languages_javascript__WEBPACK_IMPORTED_MODULE_2___default.a);
+    highlight_js_lib_core__WEBPACK_IMPORTED_MODULE_1___default.a.initHighlightingOnLoad();
   },
   props: ['data'],
   data: function data() {
     return {
       item: JSON.parse(this.data)
     };
+  },
+  components: {
+    MapComponent: _MapComponent__WEBPACK_IMPORTED_MODULE_0__["default"]
   }
 });
 
@@ -77705,11 +77712,20 @@ var render = function() {
         { staticClass: "w-full flex flex-col lg:flex-row rounded-lg" },
         [
           _c("img", {
-            staticClass: "w-64 h-48",
+            staticClass: "w-64 h-64",
             attrs: { src: _vm.item.public_url, alt: _vm.item.name }
           }),
           _vm._v(" "),
-          _c("div", { staticClass: "w-full", attrs: { id: "map" } })
+          _c(
+            "div",
+            { staticClass: "w-full" },
+            [
+              _c("map-component", {
+                attrs: { data: JSON.stringify([_vm.item]) }
+              })
+            ],
+            1
+          )
         ]
       ),
       _vm._v(" "),
