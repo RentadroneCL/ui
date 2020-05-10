@@ -12,6 +12,7 @@
   <h3 class="w-full flex flex-row items-center font-medium text-lg text-blue-700 mb-4 p-2 border-b">
     <i class="fas fa-map-marked fa-fw text-blue-200 mr-1"></i> Map
   </h3>
+  <map-component data='@json($media)'></map-component>
   <h3 class="w-full flex flex-row items-center font-medium text-lg text-blue-700 mb-4 p-2 border-b">
     <i class="fas fa-images fa-fw text-blue-200 mr-1"></i> Media Files
   </h3>
