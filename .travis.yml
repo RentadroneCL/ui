@@ -20,10 +20,11 @@ before_script:
   - cp .env.travis .env
   - composer install --no-interaction
   - php artisan migrate --no-interaction -vvv
+  - php artisan storage:link
   - yarn global add jshint
   - yarn install
 
 script:
-  - vendor/bin/phpunit
+  - php artisan test
   - yarn run production
   - jshint resources/js/*
