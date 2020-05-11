@@ -8,7 +8,7 @@ A beautifully designed administration tool for your organization projects, with 
 
 # Contributing
 
-Contributions are **welcome** and will be fully **credited**. We accept contributions via Pull Requests on [GitHub](https://github.com/RentadroneCL/droneraising).
+Contributions are **welcome** and will be fully **credited**. We accept contributions via Pull Requests on [GitHub](https://github.com/RentadroneCL/ui).
 
 ## Contribution guidelines
 
@@ -45,4 +45,4 @@ The code of conduct is derived from the [Contributor Covenant](https://www.contr
 
 ## License
 
-open-sourced software licensed under the [MIT license.](LICENSE)
+open-source software licensed under the [MIT license.](LICENSE)
