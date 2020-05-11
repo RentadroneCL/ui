@@ -15,6 +15,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::resource('/project', 'ProjectController');
 
-Route::get('/', 'ProjectController@index');
+Route::get('/', 'ProjectController@index')->name('project.index');
 
 Route::post('/project/{project}/media/upload', 'UploadMedia')->name('media.upload');
