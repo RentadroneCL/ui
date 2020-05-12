@@ -13,7 +13,8 @@ services:
   - mysql
 
 before_install:
-  - sudo apt update && apt install -y libimage-exiftool-perl
+  - sudo apt update
+  - sudo apt install -y libimage-exiftool-perl
   - travis_retry composer self-update
   - mysql -e 'CREATE DATABASE testing;'
 
