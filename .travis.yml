@@ -17,6 +17,7 @@ before_install:
   - mysql -e 'CREATE DATABASE testing;'
 
 before_script:
+  - chmod -R 777 /storage
   - cp .env.travis .env
   - composer install --no-interaction
   - php artisan migrate --no-interaction -vvv
