@@ -13,3 +13,16 @@ trim_trailing_whitespace = false
 
 [*.{yml,yaml}]
 indent_size = 2
+
+[*.{js,vue}]
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 2
+trim_trailing_whitespace = true
+
+[*.blade.php]
+end_of_line = lf
+indent_style = space
+indent_size = 2
+trim_trailing_whitespace = true

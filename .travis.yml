@@ -1,0 +1,33 @@
+dist: bionic
+
+language: php
+
+php:
+  - '7.4'
+
+cache:
+  directories:
+    - $HOME/.composer/cache
+
+services:
+  - mysql
+
+before_install:
+  - sudo apt update
+  - sudo apt install -y libimage-exiftool-perl
+  - travis_retry composer self-update
+  - mysql -e 'CREATE DATABASE testing;'
+
+before_script:
+  - chmod -R 777 storage
+  - cp .env.travis .env
+  - composer install --no-interaction
+  - php artisan migrate --no-interaction -vvv
+  - php artisan storage:link
+  - yarn global add jshint
+  - yarn install
+
+script:
+  - php artisan test
+  - yarn run production
+  - jshint resources/js/*
