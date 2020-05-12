@@ -90586,8 +90586,8 @@ var _default = /*#__PURE__*/function (_Controller) {
         confirmButtonText: 'Yes, detach it!',
         cancelButtonText: 'No, cancel!',
         customClass: {
-          confirmButton: 'cursor-pointer tracking-wider font-medium text-white focus:outline-none bg-red-600 hover:bg-red-500 mx-2 px-4 py-2 border-2 border-transparent rounded shadow',
-          cancelButton: 'cursor-pointer tracking-wider font-medium text-gray-800 bg-gray-200 hover:bg-gray-100 mx-2 px-4 py-2 border-2 border-transparent rounded shadow'
+          confirmButton: "cursor-pointer tracking-wider\n          font-medium text-white focus:outline-none bg-red-600 hover:bg-red-500\n          mx-2 px-4 py-2 border-2 border-transparent rounded shadow",
+          cancelButton: "cursor-pointer tracking-wider\n          font-medium text-gray-800 bg-gray-200 hover:bg-gray-100\n          mx-2 px-4 py-2 border-2 border-transparent rounded shadow"
         }
       }).then(function (result) {
         if (!result.value) {
