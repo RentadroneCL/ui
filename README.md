@@ -7,6 +7,7 @@
 A beautifully designed administration tool for your organization projects, with an intuitive control panel, which gives you easy access to the EXIF meta-data of an image, generate KMZ and more. Carefully crafted by the team of [Rentadrone.cl](https://rentadrone.cl).
 
 # Requirements
+
 [Exiftool](https://exiftool.org) adapter (wrapper for the exiftool binary)
 
 Installation of the exiftool binary on debian based system
@@ -24,6 +25,7 @@ The geodata underlying the map are generate with [OpenStreetMap (OSM)](https://w
 ![Exif](/resources/vendor/13-17-45.png)
 
 ## Example of an output data
+
 ```js
 {
   "SourceFile": "/tmp/phpUKu1AA",
