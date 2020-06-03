@@ -4,16 +4,24 @@
 
 # About UI
 
-A beautifully designed administration tool for your organization projects, with an intuitive control panel, which gives you easy access to the EXIF meta-data of an image and more. Carefully crafted by the team of [Rentadrone.cl](https://rentadrone.cl).
+A beautifully designed administration tool for your organization projects, with an intuitive control panel, which gives you easy access to the EXIF meta-data of an image, generate KMZ and more. Carefully crafted by the team of [Rentadrone.cl](https://rentadrone.cl).
 
-# Requiremntes
-* [Exiftool](https://exiftool.org) adapter (wrapper for the exiftool binary)
+# Requirements
+[Exiftool](https://exiftool.org) adapter (wrapper for the exiftool binary)
 
-Installation on debian based system
+Installation of the exiftool binary on debian based system
 
 `sudo apt install libimage-exiftool-perl`
 
+## Example of the utility
 
+The geodata underlying the map are generate with [OpenStreetMap (OSM)](https://www.openstreetmap.org/)
+
+![Home](/resources/vendor/12-50-11.png)
+![Images](/resources/vendor/12-51-29.png)
+![Upload](/resources/vendor/12-51-39.png)
+![Map](/resources/vendor/13-17-31.png)
+![Exif](/resources/vendor/13-17-45.png)
 
 ## Example of an output data
 ```js
