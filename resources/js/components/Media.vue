@@ -3,7 +3,7 @@
     <div class="w-full flex flex-col lg:flex-row rounded-lg">
       <img class="w-64 h-64" :src="item.public_url" :alt="item.name">
       <div class="w-full">
-        <map-component :data="JSON.stringify([item])"></map-component>
+        <Location :data="item.data.gps"></Location>
       </div>
     </div>
     <div class="w-full flex flex-col lg:flex-row justify-start">
@@ -27,27 +27,32 @@
 </template>
 
 <script>
-import MapComponent from './MapComponent'
+import Location from './Location'
 import hljs from 'highlight.js/lib/core';
 import javascript from 'highlight.js/lib/languages/javascript';
 
 export default {
-  mounted() {
-    hljs.registerLanguage('javascript', javascript);
-    hljs.initHighlightingOnLoad();
+  components: {
+    Location
   },
-  props: ['data'],
+  props: {
+    data: {
+      type: String,
+      required: true
+    }
+  },
   data() {
     return {
       item: JSON.parse(this.data)
     }
   },
-  components: {
-    MapComponent
+  mounted() {
+    hljs.registerLanguage('javascript', javascript);
+    hljs.initHighlightingOnLoad();
   }
 }
 </script>
 
 <style scoped>
-@import '~highlight.js/styles/darcula.css';
+@import '~highlight.js/styles/github.css';
 </style>
