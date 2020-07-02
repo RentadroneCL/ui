@@ -2,9 +2,21 @@
 [![License](https://poser.pugx.org/composer/spdx-licenses/license)](https://packagist.org/packages/composer/spdx-licenses)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
-# About UI
+[Rentadrone.cl](https://rentadronecl.github.io)
+
+# UI
 
 A beautifully designed administration tool for your organization projects, with an intuitive control panel, which gives you easy access to the EXIF meta-data of an image, generate KMZ and more. Carefully crafted by the team of [Rentadrone.cl](https://rentadrone.cl).
+
+See the [documentation](https://rentadronecl.github.io/docs/detection-models) for tutorials and more guides.
+
+## Developers
+Help improve our software! We welcome contributions from everyone, whether to add new features, improve speed, fix existing bugs or add support. [Check our code of conduct](CODE_OF_CONDUCT.md), [the contributing guidelines](CONTRIBUTING.md) and how decisions are made.
+
+Any code contributions are welcomed as long as they are discussed in [Github Issues](https://github.com/RentadroneCL/ui/issues) with maintainers. Be aware that if you decide to change something and submit a PR on your own, it may not be accepted.
+
+#### Creating an issue
+You can open a new issue based on code from an existing pull request. For more information, see [the template for filling issues](https://github.com/RentadroneCL/ui/blob/master/.github/ISSUE_TEMPLATE/feature_request.md)
 
 # Requirements
 
