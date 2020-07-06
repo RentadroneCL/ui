@@ -10,13 +10,29 @@ import Vue from 'vue';
 
 window.Vue = Vue;
 
-import UploadComponent from './components/UploadComponent';
-import MediaComponent from './components/MediaComponent';
-import MapComponent from './components/MapComponent';
+/**
+ * Global event bus.
+ */
+Vue.prototype.$eventBus = new Vue();
 
-Vue.component('upload-component', UploadComponent);
-Vue.component('media-component', MediaComponent);
-Vue.component('map-component', MapComponent);
+import Markers from './components/Markers';
+import Location from './components/Location';
+import Upload from './components/Upload';
+import Media from './components/Media';
+
+Vue.component('Upload', Upload);
+Vue.component('Media', Media);
+Vue.component('Markers', Markers);
+Vue.component('Location', Location);
+
+/**
+* Next, we will create a fresh Vue application instance and attach it to
+* the page. Then, you may begin adding components to this application
+* or customize the JavaScript scaffolding to fit your unique needs.
+*/
+const app = new Vue({
+  el: '#app'
+});
 
 import { Application } from 'stimulus';
 import { definitionsFromContext } from 'stimulus/webpack-helpers';

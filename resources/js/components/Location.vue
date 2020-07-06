@@ -7,10 +7,16 @@ import L from 'leaflet';
 import 'leaflet.markercluster';
 
 export default {
+  props: {
+    data: {
+      type: String,
+      required: true
+    }
+  },
   mounted() {
     const map = this.initializeMap({
-      center: this.getGeospatialData()[0],
-      zoom: 16
+      center: this.getGeospatialData(),
+      zoom: 18
     });
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -19,21 +25,15 @@ export default {
 
     this.addMarker(this.getGeospatialData(), map);
   },
-  props: ['data'],
-  data() {
-    return {
-      collect: JSON.parse(this.data)
-    }
-  },
   methods: {
     initializeMap(args = {}) {
       return L.map(this.$el, args);
     },
     getGeospatialData() {
-      return this.collect.map(item => item.data.gps.split(',').map(item => Number(item)));
+      return this.data.split(',').map(item => Number(item));
     },
     addMarker(latlng = [], map = undefined) {
-      return latlng.map(item => L.marker(item).addTo(map));
+      return L.marker(latlng).addTo(map);
     }
   }
 }

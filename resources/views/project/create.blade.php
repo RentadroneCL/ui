@@ -11,15 +11,15 @@
     <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
       Name
     </label>
-    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" name="name" type="text" placeholder="Project name">
-    <p class="text-red-500 text-xs italic"></p>
+    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline {{ $errors->has('name') ? 'border-red-500' : '' }}" id="name" name="name" type="text" placeholder="Project name">
+    {!! $errors->first('name', '<p class="text-red-500 text-xs italic">:message</p>') !!}
   </div>
   <div class="mb-6">
     <label class="block text-gray-700 text-sm font-bold mb-2" for="description">
       Description
     </label>
-    <textarea class="w-full h-24 shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="description" name="description" type="text" placeholder="Project description"></textarea>
-    <p class="text-red-500 text-xs italic"></p>
+    <textarea class="w-full h-24 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline {{ $errors->has('description') ? 'border-red-500' : '' }}" id="description" name="description" type="text" placeholder="Project description"></textarea>
+    {!! $errors->first('description', '<p class="text-red-500 text-xs italic">:message</p>') !!}
   </div>
   <div class="flex items-center justify-between">
     <button class="w-32 bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">

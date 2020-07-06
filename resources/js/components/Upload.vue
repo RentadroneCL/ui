@@ -30,6 +30,9 @@ export default {
       headers: {
         'X-CSRF-TOKEN': this.csrf
       }
+    })
+    .on('upload-success', (file, response) => {
+      this.$eventBus.$emit('upload-success', response.body.media);
     });
   }
 }
