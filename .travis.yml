@@ -29,5 +29,5 @@ before_script:
 
 script:
   - php artisan test
-  - yarn run production
-  - jshint resources/js/*
+ # - yarn run production
+ # - jshint resources/js/*
