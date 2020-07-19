@@ -8,7 +8,7 @@
 
 A beautifully designed administration tool for your organization projects, with an intuitive control panel, which gives you easy access to the EXIF meta-data of an image, generate KMZ and more. Carefully crafted by the team of [Rentadrone.cl](https://rentadrone.cl).
 
-See the [documentation](https://rentadronecl.github.io/docs/detection-models) for tutorials and more guides.
+See the [documentation](https://rentadronecl.github.io/docs/developers) for tutorials and more guides.
 
 ## Developers
 Help improve our software! We welcome contributions from everyone, whether to add new features, improve speed, fix existing bugs or add support. [Check our code of conduct](CODE_OF_CONDUCT.md), [the contributing guidelines](CONTRIBUTING.md) and how decisions are made.
