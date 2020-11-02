@@ -1,4 +1,5 @@
 [![Build Status](https://api.travis-ci.org/RentadroneCL/ui.svg)](https://travis-ci.org/github/RentadroneCL/ui)
+[![codecov](https://codecov.io/gh/RentadroneCL/ui/branch/master/graph/badge.svg?token=0F98E8LCWY)](https://codecov.io/gh/RentadroneCL/ui)
 [![License](https://poser.pugx.org/composer/spdx-licenses/license)](https://packagist.org/packages/composer/spdx-licenses)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
