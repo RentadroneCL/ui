@@ -28,9 +28,11 @@ before_script:
   - yarn install
 
 script:
-  - php artisan test
+  - mkdir -p build/logs
+  - php vendor/bin/phpunit -c phpunit.xml.dist
+ # - php artisan test
  # - yarn run production
  # - jshint resources/js/*
 
-after_success:
+ after_success:
   - travis_retry php vendor/bin/php-coveralls
