@@ -2,6 +2,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/RentadroneCL/ui/badge.svg)](https://coveralls.io/github/RentadroneCL/ui)
 [![License](https://poser.pugx.org/composer/spdx-licenses/license)](https://packagist.org/packages/composer/spdx-licenses)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
+[![Open Source Helpers](https://www.codetriage.com/rentadronecl/ui/badges/users.svg)](https://www.codetriage.com/rentadronecl/ui)
 
 
 [Rentadrone.cl](https://rentadronecl.github.io)
