@@ -17,13 +17,10 @@ Vue.prototype.$eventBus = new Vue();
 
 import Markers from './components/Markers';
 import Location from './components/Location';
-import Upload from './components/Upload';
+import AppUploader from './components/AppUploader';
 import Media from './components/Media';
 
-Vue.component('Upload', Upload);
-Vue.component('Media', Media);
-Vue.component('Markers', Markers);
-Vue.component('Location', Location);
+Vue.component('app-uploader', AppUploader);
 
 /**
 * Next, we will create a fresh Vue application instance and attach it to
