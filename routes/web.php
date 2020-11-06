@@ -28,7 +28,7 @@ Route::post('/project/{project}/media/upload', 'UploadMedia')->name('media.uploa
 
 Route::get('/api/v1/project/{project}', function (int $id = null) {
     return new ProjectResource(Project::findOrFail($id));
-});
+})->name('project');
 
 Route::get('/api/v1/project/{project}/media', function (int $id = null) {
     return new MediaCollection(
@@ -39,4 +39,4 @@ Route::get('/api/v1/project/{project}/media', function (int $id = null) {
             ])
             ->get()
     );
-});
+})->name('project.media');
