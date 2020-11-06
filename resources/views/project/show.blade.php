@@ -8,23 +8,10 @@
   <h3 class="tracking-wider font-medium text-gray-700 mt-4 mb-1 mr-auto">{{ $project->name }}</h3>
   <p class="tracking-wider text-sm text-gray-600 mr-auto">{{ $project->description }}</p>
 </div>
-<div class="w-full flex flex-col items-center justify-start mt-4 p-4">
-  <Markers data='@json($media)'></Markers>
-  <h3 class="w-full flex flex-row items-center font-medium text-lg text-blue-700 mb-4 p-2 border-b">
-    <i class="fas fa-images fa-fw text-blue-200 mr-1"></i> Media
-  </h3>
-  <div class="w-full flex flex-col items-center justify-start mt-4">
-    <Upload class="mr-auto" endpoint="{{ route('media.upload', $project) }}" csrf="{{ csrf_token() }}" target="#media"></Upload>
-    <div id="media" class="w-full flex flex-col items-center justify-start mt-4">
-      @forelse ($media as $item)
-        <Media data='@json($item)'></Media>
-      @empty
-        <div class="block w-full h-24 flex flex-col items-center justify-center p-6">
-          <p class="table-cell px-4 py-2 font-medium text-blue-800">No matches</p>
-          <p class="table-cell px-4 py-2 text-sm text-blue-700">We can't find a match.</p>
-        </div>
-      @endforelse
-    </div>
-  </div>
-</div>
+<app-uploader
+  accept="image/png, image/jpeg, image/jpg, image/webp, image/svg"
+  action="{{ route('media.upload', $project) }}"
+  endpoint="{{ route('project.media', $project) }}"
+  token="{{ csrf_token() }}"
+></app-uploader>
 @endsection
