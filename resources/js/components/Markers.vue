@@ -13,15 +13,18 @@ import 'leaflet.markercluster';
 
 export default {
   props: {
-    data: {
-      type: String,
-      required: true
+    media: {
+      required: true,
+      type: Array
     }
   },
   data() {
     return {
-      collect: JSON.parse(this.data)
+      collect: []
     }
+  },
+  created() {
+    this.collect = this.media;
   },
   mounted() {
     const map = this.initializeMap({
@@ -32,11 +35,9 @@ export default {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
 
-    if (this.collect.length > 0) {
-      map.setView(this.getGeospatialData()[0], 16);
+    map.setView(this.getGeospatialData()[0], 16);
 
-      this.addMarkers(this.getGeospatialData(), map);
-    }
+    this.addMarkers(this.getGeospatialData(), map);
 
     this.$eventBus.$on('upload-success', (event) => {
       const latlng = event.data.gps.split(',').map(item => Number(item));
@@ -45,6 +46,11 @@ export default {
 
       this.addNewMarker(latlng, map);
     });
+  },
+  watch: {
+    media(newVal, oldVal) {
+      return this.collect = newVal;
+    }
   },
   methods: {
     initializeMap(args = {}) {

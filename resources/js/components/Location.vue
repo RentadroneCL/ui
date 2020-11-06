@@ -8,7 +8,7 @@ import 'leaflet.markercluster';
 
 export default {
   props: {
-    data: {
+    location: {
       type: String,
       required: true
     }
@@ -30,7 +30,7 @@ export default {
       return L.map(this.$el, args);
     },
     getGeospatialData() {
-      return this.data.split(',').map(item => Number(item));
+      return this.location.split(',').map(item => Number(item));
     },
     addMarker(latlng = [], map = undefined) {
       return L.marker(latlng).addTo(map);
