@@ -13737,14 +13737,12 @@ module.exports = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
 /* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Media__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Media */ "./resources/js/components/Media.vue");
-/* harmony import */ var _Markers__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Markers */ "./resources/js/components/Markers.vue");
-/* harmony import */ var _uppy_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @uppy/core */ "./node_modules/@uppy/core/lib/index.js");
-/* harmony import */ var _uppy_core__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_uppy_core__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _uppy_dashboard__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @uppy/dashboard */ "./node_modules/@uppy/dashboard/lib/index.js");
-/* harmony import */ var _uppy_dashboard__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_uppy_dashboard__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _uppy_xhr_upload__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @uppy/xhr-upload */ "./node_modules/@uppy/xhr-upload/lib/index.js");
-/* harmony import */ var _uppy_xhr_upload__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_uppy_xhr_upload__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _uppy_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @uppy/core */ "./node_modules/@uppy/core/lib/index.js");
+/* harmony import */ var _uppy_core__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_uppy_core__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _uppy_dashboard__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @uppy/dashboard */ "./node_modules/@uppy/dashboard/lib/index.js");
+/* harmony import */ var _uppy_dashboard__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_uppy_dashboard__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _uppy_xhr_upload__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @uppy/xhr-upload */ "./node_modules/@uppy/xhr-upload/lib/index.js");
+/* harmony import */ var _uppy_xhr_upload__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_uppy_xhr_upload__WEBPACK_IMPORTED_MODULE_3__);
 
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
@@ -13771,13 +13769,15 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 
 
 
-
-
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'app-uploader',
   components: {
-    Media: _Media__WEBPACK_IMPORTED_MODULE_1__["default"],
-    Markers: _Markers__WEBPACK_IMPORTED_MODULE_2__["default"]
+    Media: function Media() {
+      return Promise.resolve(/*! import() */).then(__webpack_require__.bind(null, /*! ./Media */ "./resources/js/components/Media.vue"));
+    },
+    Markers: function Markers() {
+      return Promise.resolve(/*! import() */).then(__webpack_require__.bind(null, /*! ./Markers */ "./resources/js/components/Markers.vue"));
+    }
   },
   props: {
     accept: {
@@ -13814,15 +13814,15 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
     this.fetchMedia();
   },
   mounted: function mounted() {
-    var uppy = new _uppy_core__WEBPACK_IMPORTED_MODULE_3___default.a({
+    var uppy = new _uppy_core__WEBPACK_IMPORTED_MODULE_1___default.a({
       autoProceed: false,
       allowedFileTypes: this.fileTypes,
       allowMultipleUploads: true
-    }).use(_uppy_dashboard__WEBPACK_IMPORTED_MODULE_4___default.a, {
+    }).use(_uppy_dashboard__WEBPACK_IMPORTED_MODULE_2___default.a, {
       browserBackButtonClose: true,
       target: '#uppy-dashboard-container',
       trigger: '#modal-opener-btn'
-    }).use(_uppy_xhr_upload__WEBPACK_IMPORTED_MODULE_5___default.a, {
+    }).use(_uppy_xhr_upload__WEBPACK_IMPORTED_MODULE_3___default.a, {
       endpoint: this.action,
       withCredentials: true,
       headers: {
@@ -14020,11 +14020,10 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Location__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Location */ "./resources/js/components/Location.vue");
-/* harmony import */ var highlight_js_lib_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! highlight.js/lib/core */ "./node_modules/highlight.js/lib/core.js");
-/* harmony import */ var highlight_js_lib_core__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(highlight_js_lib_core__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var highlight_js_lib_languages_javascript__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! highlight.js/lib/languages/javascript */ "./node_modules/highlight.js/lib/languages/javascript.js");
-/* harmony import */ var highlight_js_lib_languages_javascript__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(highlight_js_lib_languages_javascript__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var highlight_js_lib_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! highlight.js/lib/core */ "./node_modules/highlight.js/lib/core.js");
+/* harmony import */ var highlight_js_lib_core__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(highlight_js_lib_core__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var highlight_js_lib_languages_javascript__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! highlight.js/lib/languages/javascript */ "./node_modules/highlight.js/lib/languages/javascript.js");
+/* harmony import */ var highlight_js_lib_languages_javascript__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(highlight_js_lib_languages_javascript__WEBPACK_IMPORTED_MODULE_1__);
 //
 //
 //
@@ -14053,12 +14052,13 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    Location: _Location__WEBPACK_IMPORTED_MODULE_0__["default"]
+    Location: function Location() {
+      return Promise.resolve(/*! import() */).then(__webpack_require__.bind(null, /*! ./Location */ "./resources/js/components/Location.vue"));
+    }
   },
   props: {
     file: {
@@ -14067,8 +14067,8 @@ __webpack_require__.r(__webpack_exports__);
     }
   },
   mounted: function mounted() {
-    highlight_js_lib_core__WEBPACK_IMPORTED_MODULE_1___default.a.registerLanguage('javascript', highlight_js_lib_languages_javascript__WEBPACK_IMPORTED_MODULE_2___default.a);
-    highlight_js_lib_core__WEBPACK_IMPORTED_MODULE_1___default.a.initHighlightingOnLoad();
+    highlight_js_lib_core__WEBPACK_IMPORTED_MODULE_0___default.a.registerLanguage('javascript', highlight_js_lib_languages_javascript__WEBPACK_IMPORTED_MODULE_1___default.a);
+    highlight_js_lib_core__WEBPACK_IMPORTED_MODULE_0___default.a.initHighlightingOnLoad();
   }
 });
 

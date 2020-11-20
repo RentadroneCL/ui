@@ -26,6 +26,9 @@
               <a class="bg-blue-200 text-blue-700 px-4 py-2 rounded-l-full" href="{{ route('project.show', $project) }}">
                 <i class="fas fa-eye fa-fw"></i> View
               </a>
+              <a class="bg-blue-200 text-blue-700 px-4 py-2" href="!#">
+                <i class="fas fa-sync"></i> Process
+              </a>
               <a class="bg-blue-200 text-blue-700 px-4 py-2" href="{{ route('project.edit', $project) }}">
                 <i class="fas fa-edit fa-fw"></i> Edit
               </a>

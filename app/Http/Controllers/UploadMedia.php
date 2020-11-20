@@ -23,7 +23,7 @@ class UploadMedia extends Controller
     public function __invoke(Project $project, Request $request): JsonResponse
     {
         Validator::make($request->all(), [
-            'files.*' => 'required|file|image|mimes:jpeg,jpg|max:5120',
+            'files.*' => 'required|file|mimes:jpeg,jpg,tiff|max:102400',
         ]);
 
         $reader = Reader::factory(Reader::TYPE_EXIFTOOL);

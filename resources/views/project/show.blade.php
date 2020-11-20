@@ -9,7 +9,7 @@
   <p class="tracking-wider text-sm text-gray-600 mr-auto">{{ $project->description }}</p>
 </div>
 <app-uploader
-  accept="image/png, image/jpeg, image/jpg, image/webp, image/svg"
+  accept="image/png, image/jpeg, image/jpg, image/webp, image/svg, image/tiff, image/tif"
   action="{{ route('media.upload', $project) }}"
   endpoint="{{ route('project.media', $project) }}"
   token="{{ csrf_token() }}"

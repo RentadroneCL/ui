@@ -27,13 +27,12 @@
 </template>
 
 <script>
-import Location from './Location'
 import hljs from 'highlight.js/lib/core';
 import javascript from 'highlight.js/lib/languages/javascript';
 
 export default {
   components: {
-    Location
+    Location: () => import('./Location')
   },
   props: {
     file: {
