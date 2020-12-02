@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Gmagick;
 use App\Project;
 use PHPExif\Reader\Reader;
 use Illuminate\Support\Facades\Validator;
@@ -34,6 +35,20 @@ class UploadMedia extends Controller
                         'raw_data' => $reader->read($request->file('files')[0]->path())->getRawData(),
                     ])
                     ->toMediaCollection('images');
+
+        // Generate jpg transformation images only for the orthomosaic inputs
+        if ($media->mime_type === 'image/tiff' ) {
+            $imagick = new Gmagick($media->getPath());
+            $imagick->write("{$media->name}.jpg");
+
+            $transformation = $project->addMedia(public_path("{$media->name}.jpg"))->toMediaCollection('images');
+
+            $gpsComputed = preg_split('/ /', $reader->read($media->getPath())->getRawData()['IFD0:ModelTiePoint']);
+
+            $media->setCustomProperty('data.gps', "{$gpsComputed[4]},{$gpsComputed[3]}");
+            $media->setCustomProperty('tiff2jpg', $transformation->getUrl());
+            $media->saveOrFail();
+        }
 
         return response()->json([
             'status' => 'success',

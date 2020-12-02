@@ -1,6 +1,6 @@
 <template>
   <div class="w-full flex flex-col justify-start">
-    <Markers v-if="media.length > 0" :media="media"></Markers>
+    <Markers v-if="media.length > 0 && media[0].mime_type !== 'image/tiff'" :media="media"></Markers>
     <div class="flex items-center justify-between mt-2">
       <button id="modal-opener-btn" class="w-auto my-2 md:my-0 inline-flex items-center justify-center p-3 border border-transparent text-base font-semibold rounded-md text-white bg-blue-500 shadow-sm hover:bg-blue-400 focus:outline-none focus:bg-blue-400 transition ease-in-out duration-150">
         <i class="fas fa-upload fa-fw mr-2 text-blue-200"></i> {{ title }}
@@ -57,8 +57,8 @@ export default {
       media: []
     };
   },
-  created() {
-    this.fetchMedia();
+  async created() {
+    await this.fetchMedia();
   },
   mounted() {
     const uppy = new Uppy({
@@ -77,6 +77,10 @@ export default {
       headers: {
         'X-CSRF-TOKEN': this.token
       }
+    });
+
+    uppy.on('upload-success', (file, response) => {
+      console.log(response);
     });
   },
   computed: {

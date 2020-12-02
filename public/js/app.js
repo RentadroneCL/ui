@@ -13811,7 +13811,23 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
     };
   },
   created: function created() {
-    this.fetchMedia();
+    var _this = this;
+
+    return _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
+      return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+        while (1) {
+          switch (_context.prev = _context.next) {
+            case 0:
+              _context.next = 2;
+              return _this.fetchMedia();
+
+            case 2:
+            case "end":
+              return _context.stop();
+          }
+        }
+      }, _callee);
+    }))();
   },
   mounted: function mounted() {
     var uppy = new _uppy_core__WEBPACK_IMPORTED_MODULE_1___default.a({
@@ -13829,6 +13845,9 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
         'X-CSRF-TOKEN': this.token
       }
     });
+    uppy.on('upload-success', function (file, response) {
+      console.log(response);
+    });
   },
   computed: {
     fileTypes: function fileTypes() {
@@ -13837,24 +13856,24 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
   },
   methods: {
     fetchMedia: function fetchMedia() {
-      var _this = this;
+      var _this2 = this;
 
-      return _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
-        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+      return _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee2() {
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee2$(_context2) {
           while (1) {
-            switch (_context.prev = _context.next) {
+            switch (_context2.prev = _context2.next) {
               case 0:
-                _context.next = 2;
-                return axios.get(_this.endpoint).then(function (response) {
-                  _this.media = response.data.data;
+                _context2.next = 2;
+                return axios.get(_this2.endpoint).then(function (response) {
+                  _this2.media = response.data.data;
                 });
 
               case 2:
               case "end":
-                return _context.stop();
+                return _context2.stop();
             }
           }
-        }, _callee);
+        }, _callee2);
       }))();
     }
   }
@@ -79611,7 +79630,7 @@ var render = function() {
     "div",
     { staticClass: "w-full flex flex-col justify-start" },
     [
-      _vm.media.length > 0
+      _vm.media.length > 0 && _vm.media[0].mime_type !== "image/tiff"
         ? _c("Markers", { attrs: { media: _vm.media } })
         : _vm._e(),
       _vm._v(" "),
@@ -79761,7 +79780,11 @@ var render = function() {
           _c(
             "div",
             { staticClass: "w-full" },
-            [_c("Location", { attrs: { location: _vm.file.data.gps } })],
+            [
+              _vm.file.data.gps
+                ? _c("Location", { attrs: { location: _vm.file.data.gps } })
+                : _vm._e()
+            ],
             1
           )
         ]

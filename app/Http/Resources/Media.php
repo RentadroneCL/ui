@@ -19,7 +19,7 @@ class Media extends JsonResource
             'name' => $this->file_name,
             'mime_type' => $this->mime_type,
             'size' => $this->size,
-            'public_url' => $this->getUrl(),
+            'public_url' => $this->getCustomProperty('tiff2jpg') ?? $this->getUrl(),
             'data' => $this->getCustomProperty('data'),
             'raw_data' => $this->getCustomProperty('raw_data'),
             'created_at' => $this->created_at->diffForHumans(),

@@ -3,7 +3,7 @@
     <div class="w-full flex flex-col lg:flex-row rounded-lg">
       <img class="w-64 h-64" :src="file.public_url" :alt="file.name">
       <div class="w-full">
-        <Location :location="file.data.gps"></Location>
+        <Location v-if="file.data.gps" :location="file.data.gps"></Location>
       </div>
     </div>
     <div class="w-full flex flex-col lg:flex-row justify-start">

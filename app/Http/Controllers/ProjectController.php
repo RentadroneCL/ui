@@ -73,7 +73,7 @@ class ProjectController extends Controller
                 'name' => $item->file_name,
                 'mime_type' => $item->mime_type,
                 'size' => $item->size,
-                'public_url' => $item->getUrl(),
+                'public_url' => $item->getCustomProperty('tiff2jpg') ?? $item->getUrl(),
                 'data' => $item->getCustomProperty('data'),
                 'raw_data' => $item->getCustomProperty('raw_data'),
                 'created_at' => $item->created_at->diffForHumans(),
